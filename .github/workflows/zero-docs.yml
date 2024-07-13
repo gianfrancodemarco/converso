@@ -1,0 +1,24 @@
+name: Auto Doc Generation
+
+on:
+  workflow_dispatch:
+    inputs:
+      paths:
+        type: string
+        description: "Space separated list of directories and/or files to scan"
+      code-entities:
+        description: "List of code entities to generate docstrings for"
+        required: false
+        default: "module,class,function"
+
+jobs:
+  auto_doc_generation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Docs
+        uses: gianfrancodemarco/zero-docs@main
+        with:
+          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+          paths: ${{ github.event.inputs.paths }}
+          code-entities: ${{ github.event.inputs.code-entities }}
+          reviewers: gianfrancodemarco

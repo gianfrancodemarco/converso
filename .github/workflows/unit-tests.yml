@@ -1,0 +1,47 @@
+name: Unit tests
+
+on:
+  push:
+    branches: 
+    - "main"
+  pull_request:
+    branches: 
+    - "main"
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.12"]
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v3
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        sudo apt install graphviz graphviz-dev
+        python -m pip install --upgrade pip
+        pip install poetry
+        cd converso
+        poetry install --with test
+    - name: Execute unit tests with coverage [converso]
+      run: |
+        cd converso/tests
+        poetry run pytest --cov=converso --cov-report=html:coverage_html unit
+    - name: Upload HTML coverage report
+      uses: actions/upload-artifact@v2
+      with:
+        name: coverage-report
+        path: converso/tests/coverage_html
+    - name: Upload graph image
+      uses: actions/upload-artifact@v2
+      with:
+        name: graph
+        path: converso/tests/graph.png
+    - name: Cleanup
+      run: |
+        rm -rf converso/tests/coverage_html
+        rm -f converso/tests/graph.png
