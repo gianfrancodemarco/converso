@@ -1,0 +1,3030 @@
+[
+    {
+        "id": 320,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: watch\nquantity: 7\nregion: toscana\nprovince: firenze\naddress: 2792 Manuel Summit Apt. 622\nNew Dana, GU 61711\n\n\n\nState your will to the system, and then follow his instructions to complete the job.\nGive all the data necessary to the system in the first message.\n\n\n\nUser:\n\n",
+        "use_case": "ALL_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I would like to purchase 7 watches in Toscana, Firenze. The shipping address is 2792 Manuel Summit Apt. 622, New Dana, GU 61711."
+            },
+            {
+                "AI": "Here is the information you provided for purchasing 7 watches in Toscana, Firenze:\n- Item: watch\n- Quantity: 7\n- Region: Toscana\n- Province: Firenze\n- Shipping Address: 2792 Manuel Summit Apt. 622, New Dana, GU 61711\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details provided for purchasing 7 watches in Toscana, Firenze are correct. Please proceed with the purchase process. Thank you."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 321,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: watch\nquantity: 7\nregion: toscana\nprovince: firenze\naddress: 2792 Manuel Summit Apt. 622\nNew Dana, GU 61711\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nFor example \"I want to create an event\", or \"I want to buy something\".\n\n\n\nUser:\n\n",
+        "use_case": "NO_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy something."
+            },
+            {
+                "AI": "What item would you like to purchase? You can choose from \"watch,\" \"shoes,\" \"phone,\" or \"book.\""
+            },
+            {
+                "User": "I would like to purchase a watch."
+            },
+            {
+                "AI": "How many watches would you like to purchase? The quantity should be between 1 and 10."
+            },
+            {
+                "User": "I would like to purchase 7 watches."
+            },
+            {
+                "AI": "In which region would you like the watches to be shipped?"
+            },
+            {
+                "User": "I would like the watches to be shipped to Toscana."
+            },
+            {
+                "AI": "In which province in Toscana would you like the watches to be shipped?"
+            },
+            {
+                "User": "I would like the watches to be shipped to Firenze."
+            },
+            {
+                "AI": "What is the address where you would like the watches to be shipped to in Firenze, Toscana?"
+            },
+            {
+                "User": "2792 Manuel Summit Apt. 622\nNew Dana, GU 61711"
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Watch\n- Quantity: 7\n- Region: Toscana\n- Province: Firenze\n- Address: 2792 Manuel Summit Apt. 622, New Dana, GU 61711\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 322,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: watch\nquantity: 7\nregion: toscana\nprovince: firenze\naddress: 2792 Manuel Summit Apt. 622\nNew Dana, GU 61711\n\n\n\nState what you want to do, providing only the main information, and then follow his instructions to complete the job.\nFor example \"I want to create an event called 'Meeting'\", or \"I want to buy a watch\".\n\n\n\nUser:\n\n",
+        "use_case": "MAIN_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy a watch."
+            },
+            {
+                "AI": "How many watches would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 7 watches."
+            },
+            {
+                "AI": "In which region would you like the watches to be shipped?"
+            },
+            {
+                "User": "I would like the watches to be shipped to Toscana."
+            },
+            {
+                "AI": "Could you please provide the province to which the watches should be shipped?"
+            },
+            {
+                "User": "The watches should be shipped to Firenze."
+            },
+            {
+                "AI": "Thank you for providing the shipping details. Could you please provide the address where the watches should be shipped?"
+            },
+            {
+                "User": "2792 Manuel Summit Apt. 622, New Dana, GU 61711"
+            },
+            {
+                "AI": "Here is the information you provided for purchasing 7 watches to be shipped to Firenze, Toscana:\n- Item: Watch\n- Quantity: 7\n- Region: Toscana\n- Province: Firenze\n- Address: 2792 Manuel Summit Apt. 622, New Dana, GU 61711\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details provided are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 323,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: watch\nquantity: 7\nregion: toscana\nprovince: firenze\naddress: 2792 Manuel Summit Apt. 622\nNew Dana, GU 61711\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nAct like a very naive user who doesn't know what to do, mispell words, give the wrong information and then correct it.\n\n\n\nUser:\n\n",
+        "use_case": "CONFUSED_USER",
+        "messages": [
+            {
+                "User": "Hello there! I would like to purchase a watch."
+            },
+            {
+                "AI": "Great choice! How many watches would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 7 watches, please."
+            },
+            {
+                "AI": "Perfect! Could you please provide the region where you would like the watches to be shipped?"
+            },
+            {
+                "User": "I would like the watches to be shipped to toscana."
+            },
+            {
+                "AI": "Thank you for providing the region. To proceed with the purchase, could you please provide the province where the watches should be shipped?"
+            },
+            {
+                "User": "The watches should be shipped to firenze."
+            },
+            {
+                "AI": "Thank you for providing the shipping details. To complete the purchase, could you please provide the address where the watches should be shipped to?"
+            },
+            {
+                "User": "The address is 2792 Manuel Summit Apt. 622 New Dana, GU 61711."
+            },
+            {
+                "AI": "Here is the information you provided for the purchase:\n- Item: Watch\n- Quantity: 7\n- Region: Toscana\n- Province: Firenze\n- Address: 2792 Manuel Summit Apt. 622 New Dana, GU 61711\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 324,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 9\nregion: puglia\nprovince: brindisi\naddress: 505 Kyle Village Apt. 626\nEast Melissa, UT 28610\n\n\n\nState your will to the system, and then follow his instructions to complete the job.\nGive all the data necessary to the system in the first message.\n\n\n\nUser:\n\n",
+        "use_case": "ALL_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "Hello, I would like to purchase a book. I need 9 copies of the book. The region is Puglia, the province is Brindisi, and the address is 505 Kyle Village Apt. 626, East Melissa, UT 28610."
+            },
+            {
+                "AI": "I need to know if you would like the book to be sent as an ebook or as a physical copy. Could you please specify your preference?"
+            },
+            {
+                "User": "I would like the book to be sent as physical copies."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Book\n- Quantity: 9 copies\n- Region: Puglia\n- Province: Brindisi\n- Address: 505 Kyle Village Apt. 626, East Melissa, UT 28610\n- Delivery Method: Physical copies\n\nPlease confirm if the details are correct so that we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 325,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 9\nregion: puglia\nprovince: brindisi\naddress: 505 Kyle Village Apt. 626\nEast Melissa, UT 28610\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nFor example \"I want to create an event\", or \"I want to buy something\".\n\n\n\nUser:\n\n",
+        "use_case": "NO_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy something."
+            },
+            {
+                "AI": "What item would you like to purchase? You can choose from a watch, shoes, phone, or book."
+            },
+            {
+                "User": "I would like to purchase a book."
+            },
+            {
+                "AI": "It seems there was an issue with the purchase request for the book. To proceed with the purchase, I need to know if you would like the book to be sent as an ebook or a physical copy. Could you please specify your preference?"
+            },
+            {
+                "User": "I would like to purchase a physical copy of the book."
+            },
+            {
+                "AI": "The book will be sent as a physical copy. How many copies of the book would you like to purchase? You can choose a quantity between 1 and 10."
+            },
+            {
+                "User": "I would like to purchase 9 copies of the book."
+            },
+            {
+                "AI": "Great! The quantity has been updated to 9 copies of the book. Could you please provide the region where you would like the books to be shipped?"
+            },
+            {
+                "User": "I would like the books to be shipped to the region of Puglia."
+            },
+            {
+                "AI": "It seems there was an error with the purchase request. To proceed, I need to confirm if you would like the book to be sent as an ebook or a physical copy. Could you please specify your preference?"
+            },
+            {
+                "User": "I would like to purchase a physical copy of the book."
+            },
+            {
+                "AI": "The purchase form has been updated with the information provided. Could you please provide the province where you would like the books to be shipped?"
+            },
+            {
+                "User": "I would like the books to be shipped to the province of Brindisi."
+            },
+            {
+                "AI": "The shipping province has been updated to Brindisi. Lastly, could you please provide the address where you would like the books to be shipped?"
+            },
+            {
+                "User": "505 Kyle Village Apt. 626\nEast Melissa, UT 28610"
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Book\n- Quantity: 9 copies\n- Region: Puglia\n- Province: Brindisi\n- Address: 505 Kyle Village Apt. 626 East Melissa, UT 28610\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 326,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 9\nregion: puglia\nprovince: brindisi\naddress: 505 Kyle Village Apt. 626\nEast Melissa, UT 28610\n\n\n\nState what you want to do, providing only the main information, and then follow his instructions to complete the job.\nFor example \"I want to create an event called 'Meeting'\", or \"I want to buy a watch\".\n\n\n\nUser:\n\n",
+        "use_case": "MAIN_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy a book."
+            },
+            {
+                "AI": "I need to know if you would like to receive the book as an ebook or a physical copy. Could you please specify your preference?"
+            },
+            {
+                "User": "I would like to receive a physical copy of the book."
+            },
+            {
+                "AI": "Great! You've chosen to receive a physical copy of the book. Now, could you please provide the quantity of books you would like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 9 books."
+            },
+            {
+                "AI": "Thank you for providing the quantity of books you would like to purchase. Next, could you please provide the region where you would like the books to be shipped?"
+            },
+            {
+                "User": "I would like the books to be shipped to Puglia."
+            },
+            {
+                "AI": "The form has been updated with the information you provided. Now, I need you to specify the province in Puglia where you would like the books to be shipped."
+            },
+            {
+                "User": "I would like the books to be shipped to Brindisi in Puglia."
+            },
+            {
+                "AI": "It seems there was an error with the purchase request. Since you chose to receive a physical copy of the book, I need to know your address in Brindisi, Puglia, where the books should be shipped. Could you please provide your address for delivery?"
+            },
+            {
+                "User": "505 Kyle Village Apt. 626\nEast Melissa, UT 28610"
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Book\n- Quantity: 9\n- Region: Puglia\n- Province: Brindisi\n- Address: 505 Kyle Village Apt. 626 East Melissa, UT 28610\n\nPlease confirm if the details are correct so that we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 327,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 9\nregion: puglia\nprovince: brindisi\naddress: 505 Kyle Village Apt. 626\nEast Melissa, UT 28610\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nAct like a very naive user who doesn't know what to do, mispell words, give the wrong information and then correct it.\n\n\n\nUser:\n\n",
+        "use_case": "CONFUSED_USER",
+        "messages": [
+            {
+                "User": "Hello! I would like to purchase a book."
+            },
+            {
+                "AI": "It seems that I need to specify whether you would like the book to be sent as an ebook or a physical copy. Would you like the book to be sent as an ebook?"
+            },
+            {
+                "User": "Oh, sorry about that! I would like to purchase a physical copy of the book."
+            },
+            {
+                "AI": "Got it! How many copies of the book would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 9 copys of the book."
+            },
+            {
+                "AI": "Great! Next, could you please provide the region where you would like the book to be shipped?"
+            },
+            {
+                "User": "I would like the book to be shipped to pugila."
+            },
+            {
+                "AI": "It seems there was a typo in the region name. The correct options are \"puglia,\" \"sicilia,\" or \"toscana.\" Could you please confirm the correct region for shipping the book?"
+            },
+            {
+                "User": "Oh, my mistake! I would like the book to be shipped to puglia."
+            },
+            {
+                "AI": "Thank you for providing the information. Could you now please provide the province in Puglia where you would like the book to be shipped?"
+            },
+            {
+                "User": "I would like the book to be shipped to brindisi in puglia."
+            },
+            {
+                "AI": "The form has been updated with the information you provided. Lastly, could you please provide the address in Brindisi, Puglia, where you would like the book to be shipped?"
+            },
+            {
+                "User": "My address is 505 Kyle Village Apt. 626, East Melissa, UT 28610."
+            },
+            {
+                "AI": "Here is the information you provided for the purchase:\n- Item: Book\n- Quantity: 9 copies\n- Region: Puglia\n- Province: Brindisi\n- Address: 505 Kyle Village Apt. 626, East Melissa, UT 28610\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, that information is correct. Thank you for your help!"
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 328,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: watch\nquantity: 10\nregion: puglia\nprovince: bari\naddress: 922 Bryan Road\nSouth Carlaborough, MH 19942\n\n\n\nState your will to the system, and then follow his instructions to complete the job.\nGive all the data necessary to the system in the first message.\n\n\n\nUser:\n\n",
+        "use_case": "ALL_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I would like to purchase 10 watches to be delivered to the following address:\n922 Bryan Road\nSouth Carlaborough, MH 19942\nRegion: Puglia\nProvince: Bari."
+            },
+            {
+                "AI": "Here is the information you provided for purchasing 10 watches:\n\n- Item: Watch\n- Quantity: 10\n- Address: 922 Bryan Road, South Carlaborough, MH 19942\n- Region: Puglia\n- Province: Bari\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details provided for purchasing 10 watches are correct. Please proceed with the purchase process. Thank you."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 329,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: watch\nquantity: 10\nregion: puglia\nprovince: bari\naddress: 922 Bryan Road\nSouth Carlaborough, MH 19942\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nFor example \"I want to create an event\", or \"I want to buy something\".\n\n\n\nUser:\n\n",
+        "use_case": "NO_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy something."
+            },
+            {
+                "AI": "What item would you like to purchase? You can choose from a watch, shoes, phone, or book."
+            },
+            {
+                "User": "I would like to purchase a watch."
+            },
+            {
+                "AI": "How many watches would you like to purchase? You can choose a quantity between 1 and 10."
+            },
+            {
+                "User": "I would like to purchase 10 watches."
+            },
+            {
+                "AI": "In which region would you like the watches to be shipped?"
+            },
+            {
+                "User": "I would like the watches to be shipped to Puglia."
+            },
+            {
+                "AI": "What province in Puglia should the watches be shipped to?"
+            },
+            {
+                "User": "The watches should be shipped to Bari in Puglia."
+            },
+            {
+                "AI": "What is the address in Bari, Puglia, where you would like the watches to be shipped to?"
+            },
+            {
+                "User": "The address is 922 Bryan Road, South Carlaborough, MH 19942."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Watch\n- Quantity: 10\n- Region: Puglia\n- Province: Bari\n- Address: 922 Bryan Road, South Carlaborough, MH 19942\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 330,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: watch\nquantity: 10\nregion: puglia\nprovince: bari\naddress: 922 Bryan Road\nSouth Carlaborough, MH 19942\n\n\n\nState what you want to do, providing only the main information, and then follow his instructions to complete the job.\nFor example \"I want to create an event called 'Meeting'\", or \"I want to buy a watch\".\n\n\n\nUser:\n\n",
+        "use_case": "MAIN_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy a watch."
+            },
+            {
+                "AI": "How many watches would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 10 watches."
+            },
+            {
+                "AI": "In which region would you like the watches to be shipped?"
+            },
+            {
+                "User": "I would like the watches to be shipped to Puglia."
+            },
+            {
+                "AI": "What province in Puglia should the watches be shipped to?"
+            },
+            {
+                "User": "The watches should be shipped to Bari in Puglia."
+            },
+            {
+                "AI": "Could you please provide the address where the watches should be shipped to?"
+            },
+            {
+                "User": "922 Bryan Road, South Carlaborough, MH 19942"
+            },
+            {
+                "AI": "Here is the information you provided for purchasing 10 watches to be shipped to Bari, Puglia:\n- Item: Watch\n- Quantity: 10\n- Region: Puglia\n- Province: Bari\n- Address: 922 Bryan Road, South Carlaborough, MH 19942\n\nPlease confirm if this information is correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the information provided is correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 331,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: watch\nquantity: 10\nregion: puglia\nprovince: bari\naddress: 922 Bryan Road\nSouth Carlaborough, MH 19942\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nAct like a very naive user who doesn't know what to do, mispell words, give the wrong information and then correct it.\n\n\n\nUser:\n\n",
+        "use_case": "CONFUSED_USER",
+        "messages": [
+            {
+                "User": "Hello there! I would like to purchase a watch."
+            },
+            {
+                "AI": "Great choice! How many watches would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 100 watches."
+            },
+            {
+                "AI": "It seems there was an issue with the quantity. The quantity must be between 1 and 10 for each purchase. How many watches would you like to purchase within that range?"
+            },
+            {
+                "User": "Oops, my mistake! I would like to purchase 10 watches."
+            },
+            {
+                "AI": "Perfect! Could you please provide the region where you would like the watches to be shipped?"
+            },
+            {
+                "User": "I would like the watches to be shipped to pugila."
+            },
+            {
+                "AI": "It seems there was a typo in the region name. The region must be one of puglia, sicilia, or toscana. Could you please confirm the correct region for shipping the watches?"
+            },
+            {
+                "User": "I apologize for the mistake. The correct region for shipping the watches is Puglia."
+            },
+            {
+                "AI": "Thank you for the information provided. Could you now please provide the province where the watches should be shipped in Puglia?"
+            },
+            {
+                "User": "The watches should be shipped to bari in Puglia."
+            },
+            {
+                "AI": "Thank you for providing the shipping details. Could you now please provide the address where the watches should be shipped in Bari, Puglia?"
+            },
+            {
+                "User": "The address for shipping the watches in Bari, Puglia is 922 Bryan Road, South Carlaborough, MH 19942."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Watch\n- Quantity: 10\n- Region: Puglia\n- Province: Bari\n- Address: 922 Bryan Road, South Carlaborough, MH 19942\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 332,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: shoes\nquantity: 7\nregion: toscana\nprovince: firenze\naddress: 124 John Springs\nEllisberg, NE 80789\n\n\n\nState your will to the system, and then follow his instructions to complete the job.\nGive all the data necessary to the system in the first message.\n\n\n\nUser:\n\n",
+        "use_case": "ALL_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I would like to purchase 7 pairs of shoes in Toscana, Firenze. The shipping address is 124 John Springs, Ellisberg, NE 80789."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: shoes\n- Quantity: 7\n- Region: Toscana\n- Province: Firenze\n- Shipping Address: 124 John Springs, Ellisberg, NE 80789\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details provided for the purchase of 7 pairs of shoes in Toscana, Firenze, with the shipping address at 124 John Springs, Ellisberg, NE 80789 are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 333,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: shoes\nquantity: 7\nregion: toscana\nprovince: firenze\naddress: 124 John Springs\nEllisberg, NE 80789\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nFor example \"I want to create an event\", or \"I want to buy something\".\n\n\n\nUser:\n\n",
+        "use_case": "NO_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy something."
+            },
+            {
+                "AI": "What item would you like to purchase? You can choose from a watch, shoes, phone, or book."
+            },
+            {
+                "User": "I would like to purchase shoes."
+            },
+            {
+                "AI": "How many pairs of shoes would you like to purchase? You can choose a quantity between 1 and 10."
+            },
+            {
+                "User": "I would like to purchase 7 pairs of shoes."
+            },
+            {
+                "AI": "In which region would you like the shoes to be shipped?"
+            },
+            {
+                "User": "I would like the shoes to be shipped to Toscana."
+            },
+            {
+                "AI": "Could you please provide the province in Toscana where you would like the shoes to be shipped?"
+            },
+            {
+                "User": "I would like the shoes to be shipped to Firenze in Toscana."
+            },
+            {
+                "AI": "What is the address where you would like the shoes to be shipped to in Firenze, Toscana?"
+            },
+            {
+                "User": "The address is 124 John Springs, Ellisberg, NE 80789."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Shoes\n- Quantity: 7 pairs\n- Region: Toscana\n- Province: Firenze\n- Address: 124 John Springs, Ellisberg, NE 80789\n\nPlease confirm if the information is correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the information provided is correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 334,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: shoes\nquantity: 7\nregion: toscana\nprovince: firenze\naddress: 124 John Springs\nEllisberg, NE 80789\n\n\n\nState what you want to do, providing only the main information, and then follow his instructions to complete the job.\nFor example \"I want to create an event called 'Meeting'\", or \"I want to buy a watch\".\n\n\n\nUser:\n\n",
+        "use_case": "MAIN_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to purchase shoes."
+            },
+            {
+                "AI": "What quantity of shoes would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 7 pairs of shoes."
+            },
+            {
+                "AI": "In which region would you like the shoes to be shipped?"
+            },
+            {
+                "User": "I would like the shoes to be shipped to Toscana."
+            },
+            {
+                "AI": "What is the province in Toscana where you would like the shoes to be shipped?"
+            },
+            {
+                "User": "I would like the shoes to be shipped to Firenze in Toscana."
+            },
+            {
+                "AI": "Could you please provide the address where you would like the shoes to be shipped?"
+            },
+            {
+                "User": "124 John Springs, Ellisberg, NE 80789"
+            },
+            {
+                "AI": "Here is the information you provided for the purchase:\n- Item: Shoes\n- Quantity: 7 pairs\n- Region: Toscana\n- Province: Firenze\n- Address: 124 John Springs, Ellisberg, NE 80789\n\nPlease confirm if the information is correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the information provided is correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 335,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: shoes\nquantity: 7\nregion: toscana\nprovince: firenze\naddress: 124 John Springs\nEllisberg, NE 80789\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nAct like a very naive user who doesn't know what to do, mispell words, give the wrong information and then correct it.\n\n\n\nUser:\n\n",
+        "use_case": "CONFUSED_USER",
+        "messages": [
+            {
+                "User": "Hello! I would like to purchase some shose."
+            },
+            {
+                "AI": "Great choice! How many pairs of shoes would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 7 pairs of shose."
+            },
+            {
+                "AI": "Which region would you like the shoes to be shipped to?"
+            },
+            {
+                "User": "I would like the shose to be shipped to toscana."
+            },
+            {
+                "AI": "Could you please provide the province in Toscana where you would like the shoes to be shipped?"
+            },
+            {
+                "User": "The province is firenze."
+            },
+            {
+                "AI": "Thank you for providing the province. Now, could you please provide the address where you would like the shoes to be shipped?"
+            },
+            {
+                "User": "The address is 124 John Springs Ellisberg, NE 80789."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Shoes\n- Quantity: 7 pairs\n- Region: Toscana\n- Province: Firenze\n- Address: 124 John Springs Ellisberg, NE 80789\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Let's proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 336,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 9\nregion: sicilia\nprovince: enna\naddress: 891 Duke Neck Apt. 595\nJaredside, WI 23083\n\n\n\nState your will to the system, and then follow his instructions to complete the job.\nGive all the data necessary to the system in the first message.\n\n\n\nUser:\n\n",
+        "use_case": "ALL_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I would like to purchase a book. I need 9 copies of the book. The region is Sicilia, the province is Enna, and the address is 891 Duke Neck Apt. 595, Jaredside, WI 23083."
+            },
+            {
+                "AI": "It seems there was an issue with the purchase request for the book. To proceed, I need to know if you would like the book to be sent as an ebook or as a physical copy. Could you please specify if you prefer an ebook for the book purchase?"
+            },
+            {
+                "User": "I would like the book to be sent as physical copies, not as an ebook."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Book\n- Quantity: 9 copies\n- Region: Sicilia\n- Province: Enna\n- Address: 891 Duke Neck Apt. 595, Jaredside, WI 23083\n- Ebook: No (Physical copies)\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details for the purchase are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 337,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 9\nregion: sicilia\nprovince: enna\naddress: 891 Duke Neck Apt. 595\nJaredside, WI 23083\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nFor example \"I want to create an event\", or \"I want to buy something\".\n\n\n\nUser:\n\n",
+        "use_case": "NO_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy something."
+            },
+            {
+                "AI": "What item would you like to purchase? You can choose from a watch, shoes, phone, or book."
+            },
+            {
+                "User": "I would like to purchase a book."
+            },
+            {
+                "AI": "It seems there was an issue with the purchase request for the book. To proceed with the purchase, I need to know if you would like the book to be sent as an ebook or a physical copy. Could you please specify your preference?"
+            },
+            {
+                "User": "I would like to purchase a physical copy of the book."
+            },
+            {
+                "AI": "Great choice! How many copies of the book would you like to purchase? You can select a quantity between 1 and 10."
+            },
+            {
+                "User": "I would like to purchase 9 copies of the book."
+            },
+            {
+                "AI": "Where would you like the books to be shipped? Please provide the region for the delivery."
+            },
+            {
+                "User": "The books should be shipped to Sicilia."
+            },
+            {
+                "AI": "It seems there was an error with the purchase request for the books. Let's correct this by specifying that the books will be sent as physical copies. Could you confirm that you want the books to be sent as physical copies?"
+            },
+            {
+                "User": "Yes, I confirm that I want the books to be sent as physical copies."
+            },
+            {
+                "AI": "The form has been updated with the information provided. Next, I need to know the province in Sicilia where you would like the books to be shipped. Could you please provide the province for the delivery?"
+            },
+            {
+                "User": "The books should be shipped to Enna in Sicilia."
+            },
+            {
+                "AI": "The form has been successfully updated with the shipping details. Lastly, I need the address in Enna, Sicilia, where you would like the books to be delivered. Could you please provide the complete address for the delivery?"
+            },
+            {
+                "User": "891 Duke Neck Apt. 595, Jaredside, WI 23083"
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Book\n- Quantity: 9 copies\n- Region: Sicilia\n- Province: Enna\n- Address: 891 Duke Neck Apt. 595, Jaredside, WI 23083\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 338,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 9\nregion: sicilia\nprovince: enna\naddress: 891 Duke Neck Apt. 595\nJaredside, WI 23083\n\n\n\nState what you want to do, providing only the main information, and then follow his instructions to complete the job.\nFor example \"I want to create an event called 'Meeting'\", or \"I want to buy a watch\".\n\n\n\nUser:\n\n",
+        "use_case": "MAIN_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy a book."
+            },
+            {
+                "AI": "I need to know if you would like to receive the book as an ebook or a physical copy. Could you please specify your preference?"
+            },
+            {
+                "User": "I would like to receive a physical copy of the book."
+            },
+            {
+                "AI": "Great! You've chosen to receive a physical copy of the book. \nNext, could you please provide the quantity of books you would like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 9 books."
+            },
+            {
+                "AI": "The quantity of 9 books has been added to your purchase. \nNow, could you please provide the region where you would like the books to be shipped?"
+            },
+            {
+                "User": "I would like the books to be shipped to Sicilia."
+            },
+            {
+                "AI": "It seems there was an error because I missed asking you about the format of the book. Would you like the book to be sent as an ebook or a physical copy?"
+            },
+            {
+                "User": "I would like the book to be sent as a physical copy."
+            },
+            {
+                "AI": "The information has been updated with your preferences. \nNow, could you please provide the province in Sicilia where you would like the books to be shipped?"
+            },
+            {
+                "User": "I would like the books to be shipped to Enna in Sicilia."
+            },
+            {
+                "AI": "The shipping address has been updated to Enna in Sicilia.\nIs there anything else you would like to add or modify for your purchase?"
+            },
+            {
+                "User": "Yes, please ship the books to the following address:\n891 Duke Neck Apt. 595\nJaredside, WI 23083"
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Book\n- Quantity: 9\n- Region: Sicilia\n- Province: Enna\n- Shipping Address: 891 Duke Neck Apt. 595 Jaredside, WI 23083\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 339,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 9\nregion: sicilia\nprovince: enna\naddress: 891 Duke Neck Apt. 595\nJaredside, WI 23083\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nAct like a very naive user who doesn't know what to do, mispell words, give the wrong information and then correct it.\n\n\n\nUser:\n\n",
+        "use_case": "CONFUSED_USER",
+        "messages": [
+            {
+                "User": "Hello there! I would like to purchase a book, please."
+            },
+            {
+                "AI": "I need to know if you would like the book to be sent as an ebook or a physical copy. Could you please specify your preference?"
+            },
+            {
+                "User": "Oh, sorry for not mentioning that before! I would like to get a physical copy of the book, please."
+            },
+            {
+                "AI": "Got it! To proceed with the purchase, I need to know the quantity of books you would like to buy. How many copies of the book would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 9 books, please."
+            },
+            {
+                "AI": "Thank you for providing the quantity. Next, I need to know the region where you would like the books to be shipped. Could you please provide the region for shipping?"
+            },
+            {
+                "User": "The region for shipping is sicilia."
+            },
+            {
+                "AI": "Thank you for providing the shipping region. The next piece of information I require is the province where the books should be shipped. Could you please provide the province for shipping?"
+            },
+            {
+                "User": "The province for shipping is enna."
+            },
+            {
+                "AI": "The purchase form has been successfully updated with the information provided. The last detail needed is the address where the books should be shipped. Could you please provide the shipping address?"
+            },
+            {
+                "User": "My shipping address is 891 Duke Neck Apt. 595, Jaredside, WI 23083."
+            },
+            {
+                "AI": "It seems there was an error because I missed asking you about the ebook option for the book. Would you like the book to be sent as an ebook or a physical copy?"
+            },
+            {
+                "User": "Oh, I'm sorry for the confusion earlier. I actually want the book to be sent as a physical copy."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Book\n- Quantity: 9\n- Region: Sicilia\n- Province: Enna\n- Address: 891 Duke Neck Apt. 595, Jaredside, WI 23083\n\nPlease confirm if the details are correct so that we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 340,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 9\nregion: toscana\nprovince: lucca\naddress: 98511 John Islands Suite 194\nBennettburgh, WY 50248\n\n\n\nState your will to the system, and then follow his instructions to complete the job.\nGive all the data necessary to the system in the first message.\n\n\n\nUser:\n\n",
+        "use_case": "ALL_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "Hello, I would like to purchase 9 books to be delivered to Toscana, Lucca. The shipping address is 98511 John Islands Suite 194, Bennettburgh, WY 50248."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: 9 books\n- Region: Toscana\n- Province: Lucca\n- Shipping Address: 98511 John Islands Suite 194, Bennettburgh, WY 50248\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details provided are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 341,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 9\nregion: toscana\nprovince: lucca\naddress: 98511 John Islands Suite 194\nBennettburgh, WY 50248\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nFor example \"I want to create an event\", or \"I want to buy something\".\n\n\n\nUser:\n\n",
+        "use_case": "NO_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy something."
+            },
+            {
+                "AI": "What item would you like to purchase? You can choose from \"watch\", \"shoes\", \"phone\", or \"book\"."
+            },
+            {
+                "User": "I would like to purchase a book."
+            },
+            {
+                "AI": "It seems there was an issue with the purchase request for the book. To proceed with the purchase, I need to know if you would like the book to be sent as an ebook or as a physical copy. Could you please specify your preference?"
+            },
+            {
+                "User": "I would like to receive the book as a physical copy."
+            },
+            {
+                "AI": "Great! The book will be sent to you as a physical copy. \n\nNext, please provide the quantity of books you would like to purchase."
+            },
+            {
+                "User": "I would like to purchase 9 books."
+            },
+            {
+                "AI": "The quantity of 9 books has been added to your purchase. \n\nNow, could you please provide the region where you would like the books to be shipped?"
+            },
+            {
+                "User": "I would like the books to be shipped to Toscana."
+            },
+            {
+                "AI": "Thank you for providing the shipping region. \n\nTo proceed with the purchase, I need you to provide the province where the books should be shipped. Could you please specify the province in Toscana where you would like the books to be delivered?"
+            },
+            {
+                "User": "I would like the books to be shipped to Lucca in Toscana."
+            },
+            {
+                "AI": "The shipping province has been set to Lucca in Toscana.\n\nLastly, please provide the address where you would like the books to be delivered."
+            },
+            {
+                "User": "98511 John Islands Suite 194, Bennettburgh, WY 50248"
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Book\n- Quantity: 9\n- Region: Toscana\n- Province: Lucca\n- Address: 98511 John Islands Suite 194, Bennettburgh, WY 50248\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details provided are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 342,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 9\nregion: toscana\nprovince: lucca\naddress: 98511 John Islands Suite 194\nBennettburgh, WY 50248\n\n\n\nState what you want to do, providing only the main information, and then follow his instructions to complete the job.\nFor example \"I want to create an event called 'Meeting'\", or \"I want to buy a watch\".\n\n\n\nUser:\n\n",
+        "use_case": "MAIN_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy a book."
+            },
+            {
+                "AI": "I need to know if you would like to receive the book as an ebook or a physical copy. Could you please specify your preference?"
+            },
+            {
+                "User": "I would like to receive the book as a physical copy."
+            },
+            {
+                "AI": "Thank you for providing that information. The book will be sent to you as a physical copy. \n\nNext, could you please specify the quantity of books you would like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 9 books."
+            },
+            {
+                "AI": "The quantity of 9 books has been updated. \n\nNext, could you please provide the region where you would like the books to be shipped?"
+            },
+            {
+                "User": "I would like the books to be shipped to Toscana."
+            },
+            {
+                "AI": "The region has been updated to Toscana. \n\nNow, could you please provide the province where you would like the books to be shipped?"
+            },
+            {
+                "User": "I would like the books to be shipped to Lucca."
+            },
+            {
+                "AI": "The province has been updated to Lucca.\n\nLastly, could you please provide the address where you would like the books to be shipped?"
+            },
+            {
+                "User": "98511 John Islands Suite 194\nBennettburgh, WY 50248"
+            },
+            {
+                "AI": "Here is the information you provided for the purchase:\n- Item: Book\n- Quantity: 9\n- Region: Toscana\n- Province: Lucca\n- Address: 98511 John Islands Suite 194 Bennettburgh, WY 50248\n\nPlease confirm if the details are correct so that we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 343,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 9\nregion: toscana\nprovince: lucca\naddress: 98511 John Islands Suite 194\nBennettburgh, WY 50248\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nAct like a very naive user who doesn't know what to do, mispell words, give the wrong information and then correct it.\n\n\n\nUser:\n\n",
+        "use_case": "CONFUSED_USER",
+        "messages": [
+            {
+                "User": "Hello there! I would like to purchase a book. Can you help me with that, please?"
+            },
+            {
+                "AI": "It seems I missed a detail. Could you please confirm if you would like to receive the book as an ebook or a physical copy?"
+            },
+            {
+                "User": "Oh, sorry about that! I would like to receive a physical copy of the book, please."
+            },
+            {
+                "AI": "Thank you for confirming that you would like to receive a physical copy of the book. Could you please provide the quantity of books you would like to purchase?"
+            },
+            {
+                "User": "Oops, I forgot to mention that. I would like to purchase 9 books, please."
+            },
+            {
+                "AI": "The form has been updated with the quantity of 9 books. Next, could you please provide the region where you would like the books to be shipped?"
+            },
+            {
+                "User": "Oh, I almost forgot to mention that. I would like the books to be shipped to Toscana, please."
+            },
+            {
+                "AI": "The form has been updated with the region set to Toscana. Now, could you please provide the province where you would like the books to be shipped?"
+            },
+            {
+                "User": "Oh, my mistake! I meant to say that I would like the books to be shipped to Lucca in Toscana."
+            },
+            {
+                "AI": "Thank you for providing the province as Lucca in Toscana. Lastly, could you please provide the address where you would like the books to be shipped?"
+            },
+            {
+                "User": "Oh, I almost forgot to mention that. The address where I would like the books to be shipped is 98511 John Islands Suite 194, Bennettburgh, WY 50248."
+            },
+            {
+                "AI": "Here is the information you provided for the purchase:\n- Item: Book\n- Quantity: 9\n- Region: Toscana\n- Province: Lucca\n- Address: 98511 John Islands Suite 194, Bennettburgh, WY 50248\n\nPlease confirm if the details are correct so that we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, that information is correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 344,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: shoes\nquantity: 3\nregion: toscana\nprovince: pistoia\naddress: 70004 Kimberly Springs Suite 709\nMatthewville, WV 27374\n\n\n\nState your will to the system, and then follow his instructions to complete the job.\nGive all the data necessary to the system in the first message.\n\n\n\nUser:\n\n",
+        "use_case": "ALL_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I would like to purchase 3 pairs of shoes in Toscana, Pistoia. The shipping address is 70004 Kimberly Springs Suite 709, Matthewville, WV 27374."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Shoes\n- Quantity: 3\n- Region: Toscana\n- Province: Pistoia\n- Shipping Address: 70004 Kimberly Springs Suite 709, Matthewville, WV 27374\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 345,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: shoes\nquantity: 3\nregion: toscana\nprovince: pistoia\naddress: 70004 Kimberly Springs Suite 709\nMatthewville, WV 27374\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nFor example \"I want to create an event\", or \"I want to buy something\".\n\n\n\nUser:\n\n",
+        "use_case": "NO_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy something."
+            },
+            {
+                "AI": "What item would you like to purchase? You can choose from a watch, shoes, phone, or book."
+            },
+            {
+                "User": "I would like to purchase shoes."
+            },
+            {
+                "AI": "How many pairs of shoes would you like to purchase? You can choose a quantity between 1 and 10."
+            },
+            {
+                "User": "I would like to purchase 3 pairs of shoes."
+            },
+            {
+                "AI": "In which region would you like the shoes to be shipped?"
+            },
+            {
+                "User": "I would like the shoes to be shipped to Toscana."
+            },
+            {
+                "AI": "What province in Toscana should the shoes be shipped to?"
+            },
+            {
+                "User": "The shoes should be shipped to Pistoia."
+            },
+            {
+                "AI": "What is the address where the shoes should be shipped to in Pistoia, Toscana?"
+            },
+            {
+                "User": "The address is 70004 Kimberly Springs Suite 709, Matthewville, WV 27374."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Shoes\n- Quantity: 3 pairs\n- Region: Toscana\n- Province: Pistoia\n- Address: 70004 Kimberly Springs Suite 709, Matthewville, WV 27374\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 346,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: shoes\nquantity: 3\nregion: toscana\nprovince: pistoia\naddress: 70004 Kimberly Springs Suite 709\nMatthewville, WV 27374\n\n\n\nState what you want to do, providing only the main information, and then follow his instructions to complete the job.\nFor example \"I want to create an event called 'Meeting'\", or \"I want to buy a watch\".\n\n\n\nUser:\n\n",
+        "use_case": "MAIN_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy shoes."
+            },
+            {
+                "AI": "Great choice! How many pairs of shoes would you like to buy?"
+            },
+            {
+                "User": "I would like to buy 3 pairs of shoes."
+            },
+            {
+                "AI": "Where would you like the shoes to be shipped? Could you please provide the region for the shipping address?"
+            },
+            {
+                "User": "The region for the shipping address is Toscana."
+            },
+            {
+                "AI": "Could you please provide the province for the shipping address in Toscana?"
+            },
+            {
+                "User": "The province for the shipping address in Toscana is Pistoia."
+            },
+            {
+                "AI": "Thank you for providing the shipping region and province. Could you now please provide the full address where you would like the shoes to be shipped?"
+            },
+            {
+                "User": "70004 Kimberly Springs Suite 709, Matthewville, WV 27374"
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Shoes\n- Quantity: 3 pairs\n- Region: Toscana\n- Province: Pistoia\n- Address: 70004 Kimberly Springs Suite 709, Matthewville, WV 27374\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 347,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: shoes\nquantity: 3\nregion: toscana\nprovince: pistoia\naddress: 70004 Kimberly Springs Suite 709\nMatthewville, WV 27374\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nAct like a very naive user who doesn't know what to do, mispell words, give the wrong information and then correct it.\n\n\n\nUser:\n\n",
+        "use_case": "CONFUSED_USER",
+        "messages": [
+            {
+                "User": "Hello there! I would like to purchase some shose. Can you help me with that?"
+            },
+            {
+                "AI": "Great choice! How many pairs of shoes would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 3 pairs of shose."
+            },
+            {
+                "AI": "Perfect! Could you please provide the region where you would like the shoes to be shipped?"
+            },
+            {
+                "User": "I would like the shose to be shipped to Toscana."
+            },
+            {
+                "AI": "Could you please provide the province in Toscana where you would like the shoes to be shipped?"
+            },
+            {
+                "User": "The province is Pistoia."
+            },
+            {
+                "AI": "Thank you for providing the shipping details. Now, could you please provide the address where you would like the shoes to be shipped?"
+            },
+            {
+                "User": "My address is 70004 Kimberly Springs Suite 709 Matthewville, WV 27374."
+            },
+            {
+                "AI": "Here is the information for your shoe purchase:\n- Item: Shoes\n- Quantity: 3 pairs\n- Region: Toscana\n- Province: Pistoia\n- Address: 70004 Kimberly Springs Suite 709 Matthewville, WV 27374\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, that information is correct. Thank you for your help!"
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 348,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: phone\nquantity: 6\nregion: sicilia\nprovince: ragusa\naddress: 8178 John Square\nPort Karistad, NV 10688\n\n\n\nState your will to the system, and then follow his instructions to complete the job.\nGive all the data necessary to the system in the first message.\n\n\n\nUser:\n\n",
+        "use_case": "ALL_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I would like to purchase 6 phones in Sicilia, Ragusa. The shipping address is 8178 John Square, Port Karistad, NV 10688."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: phone\n- Quantity: 6\n- Region: Sicilia\n- Province: Ragusa\n- Shipping Address: 8178 John Square, Port Karistad, NV 10688\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 349,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: phone\nquantity: 6\nregion: sicilia\nprovince: ragusa\naddress: 8178 John Square\nPort Karistad, NV 10688\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nFor example \"I want to create an event\", or \"I want to buy something\".\n\n\n\nUser:\n\n",
+        "use_case": "NO_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy something."
+            },
+            {
+                "AI": "What item would you like to purchase? You can choose from a watch, shoes, phone, or book."
+            },
+            {
+                "User": "I would like to purchase a phone."
+            },
+            {
+                "AI": "How many phones would you like to purchase? You can choose a quantity between 1 and 10."
+            },
+            {
+                "User": "I would like to purchase 6 phones."
+            },
+            {
+                "AI": "In which region would you like the phones to be shipped?"
+            },
+            {
+                "User": "I would like the phones to be shipped to Sicilia."
+            },
+            {
+                "AI": "What province in Sicilia should the phones be shipped to?"
+            },
+            {
+                "User": "I would like the phones to be shipped to Ragusa."
+            },
+            {
+                "AI": "What is the address where you would like the phones to be shipped to in Ragusa, Sicilia?"
+            },
+            {
+                "User": "8178 John Square, Port Karistad, NV 10688"
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Phone\n- Quantity: 6\n- Region: Sicilia\n- Province: Ragusa\n- Address: 8178 John Square, Port Karistad, NV 10688\n\nPlease confirm if this information is correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the information provided is correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 350,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: phone\nquantity: 6\nregion: sicilia\nprovince: ragusa\naddress: 8178 John Square\nPort Karistad, NV 10688\n\n\n\nState what you want to do, providing only the main information, and then follow his instructions to complete the job.\nFor example \"I want to create an event called 'Meeting'\", or \"I want to buy a watch\".\n\n\n\nUser:\n\n",
+        "use_case": "MAIN_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy a phone."
+            },
+            {
+                "AI": "How many phones would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 6 phones."
+            },
+            {
+                "AI": "In which region would you like the phones to be shipped?"
+            },
+            {
+                "User": "I would like the phones to be shipped to Sicilia."
+            },
+            {
+                "AI": "Could you please provide the province in Sicilia where you would like the phones to be shipped?"
+            },
+            {
+                "User": "I would like the phones to be shipped to Ragusa in Sicilia."
+            },
+            {
+                "AI": "What is the address in Ragusa, Sicilia, where you would like the phones to be shipped?"
+            },
+            {
+                "User": "The address is 8178 John Square, Port Karistad, NV 10688."
+            },
+            {
+                "AI": "Here is the information you provided for purchasing 6 phones to be shipped to Ragusa, Sicilia:\n- Item: Phone\n- Quantity: 6\n- Region: Sicilia\n- Province: Ragusa\n- Address: 8178 John Square, Port Karistad, NV 10688\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details provided are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 351,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: phone\nquantity: 6\nregion: sicilia\nprovince: ragusa\naddress: 8178 John Square\nPort Karistad, NV 10688\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nAct like a very naive user who doesn't know what to do, mispell words, give the wrong information and then correct it.\n\n\n\nUser:\n\n",
+        "use_case": "CONFUSED_USER",
+        "messages": [
+            {
+                "User": "Hello there! I would like to purchase a phone."
+            },
+            {
+                "AI": "Great choice! How many phones would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 6 phones."
+            },
+            {
+                "AI": "In which region would you like the phones to be shipped?"
+            },
+            {
+                "User": "I would like the phones to be shipped to sicilia."
+            },
+            {
+                "AI": "Could you please provide the province in Sicilia where you would like the phones to be shipped?"
+            },
+            {
+                "User": "The province in Sicilia where I would like the phones to be shipped is ragusa."
+            },
+            {
+                "AI": "Thank you for providing the province. The form has been updated with the information. Now, could you please provide the address where you would like the phones to be shipped?"
+            },
+            {
+                "User": "The address where I would like the phones to be shipped is 8178 John Square, Port Karistad, NV 10688."
+            },
+            {
+                "AI": "Here is the information you provided for purchasing 6 phones to be shipped to Ragusa, Sicilia:\n- Item: Phone\n- Quantity: 6\n- Region: Sicilia\n- Province: Ragusa\n- Address: 8178 John Square, Port Karistad, NV 10688\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 352,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: phone\nquantity: 8\nregion: sicilia\nprovince: ragusa\naddress: 302 David Junction Suite 757\nSteventon, SC 86000\n\n\n\nState your will to the system, and then follow his instructions to complete the job.\nGive all the data necessary to the system in the first message.\n\n\n\nUser:\n\n",
+        "use_case": "ALL_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I would like to purchase 8 phones in Sicilia, Ragusa. The shipping address is 302 David Junction Suite 757, Steventon, SC 86000."
+            },
+            {
+                "AI": "Here is the information you provided for the purchase:\n- Item: phone\n- Quantity: 8\n- Region: Sicilia\n- Province: Ragusa\n- Shipping Address: 302 David Junction Suite 757, Steventon, SC 86000\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details provided are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 353,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: phone\nquantity: 8\nregion: sicilia\nprovince: ragusa\naddress: 302 David Junction Suite 757\nSteventon, SC 86000\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nFor example \"I want to create an event\", or \"I want to buy something\".\n\n\n\nUser:\n\n",
+        "use_case": "NO_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy something."
+            },
+            {
+                "AI": "What item would you like to purchase? You can choose from a watch, shoes, phone, or book."
+            },
+            {
+                "User": "I would like to purchase a phone."
+            },
+            {
+                "AI": "How many phones would you like to purchase? The quantity should be between 1 and 10."
+            },
+            {
+                "User": "I would like to purchase 8 phones."
+            },
+            {
+                "AI": "In which region would you like the phones to be shipped?"
+            },
+            {
+                "User": "I would like the phones to be shipped to Sicilia."
+            },
+            {
+                "AI": "Could you please provide the province in Sicilia where you would like the phones to be shipped?"
+            },
+            {
+                "User": "I would like the phones to be shipped to Ragusa in Sicilia."
+            },
+            {
+                "AI": "What is the address in Ragusa, Sicilia, where you would like the phones to be shipped?"
+            },
+            {
+                "User": "The address is 302 David Junction Suite 757, Steventon, SC 86000."
+            },
+            {
+                "AI": "Here is the information you provided for the purchase:\n- Item: Phone\n- Quantity: 8\n- Region: Sicilia\n- Province: Ragusa\n- Address: 302 David Junction Suite 757, Steventon, SC 86000\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 354,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: phone\nquantity: 8\nregion: sicilia\nprovince: ragusa\naddress: 302 David Junction Suite 757\nSteventon, SC 86000\n\n\n\nState what you want to do, providing only the main information, and then follow his instructions to complete the job.\nFor example \"I want to create an event called 'Meeting'\", or \"I want to buy a watch\".\n\n\n\nUser:\n\n",
+        "use_case": "MAIN_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy a phone."
+            },
+            {
+                "AI": "Great choice! How many phones would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 8 phones."
+            },
+            {
+                "AI": "Where would you like the phones to be shipped? Could you please provide the region for the delivery?"
+            },
+            {
+                "User": "The region for delivery is Sicilia."
+            },
+            {
+                "AI": "Could you please provide the province in Sicilia where you would like the phones to be shipped?"
+            },
+            {
+                "User": "The province in Sicilia where I would like the phones to be shipped is Ragusa."
+            },
+            {
+                "AI": "Thank you for providing the shipping details. Could you now please provide the address where you would like the phones to be delivered?"
+            },
+            {
+                "User": "302 David Junction Suite 757, Steventon, SC 86000"
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Phone\n- Quantity: 8\n- Region: Sicilia\n- Province: Ragusa\n- Address: 302 David Junction Suite 757, Steventon, SC 86000\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 355,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: phone\nquantity: 8\nregion: sicilia\nprovince: ragusa\naddress: 302 David Junction Suite 757\nSteventon, SC 86000\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nAct like a very naive user who doesn't know what to do, mispell words, give the wrong information and then correct it.\n\n\n\nUser:\n\n",
+        "use_case": "CONFUSED_USER",
+        "messages": [
+            {
+                "User": "Hello there! I would like to purchase a phone."
+            },
+            {
+                "AI": "Great choice! How many phones would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 8 phones."
+            },
+            {
+                "AI": "Perfect! Could you please provide the region where you would like the phones to be shipped?"
+            },
+            {
+                "User": "I would like the phones to be shipped to sicilia."
+            },
+            {
+                "AI": "Thank you for providing the region. To proceed with the purchase, could you please provide the province in Sicilia where you would like the phones to be shipped?"
+            },
+            {
+                "User": "The province in Sicilia where I would like the phones to be shipped is ragusa."
+            },
+            {
+                "AI": "Thank you for providing the province. The form has been updated with the information you provided. Now, could you please provide the address where you would like the phones to be shipped?"
+            },
+            {
+                "User": "The address where I would like the phones to be shipped is 302 David Junction Suite 757 Steventon, SC 86000."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Phone\n- Quantity: 8\n- Region: Sicilia\n- Province: Ragusa\n- Address: 302 David Junction Suite 757 Steventon, SC 86000\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 356,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: shoes\nquantity: 8\nregion: puglia\nprovince: bat\naddress: 0224 Blackwell Fords Suite 412\nBrendaview, ND 14732\n\n\n\nState your will to the system, and then follow his instructions to complete the job.\nGive all the data necessary to the system in the first message.\n\n\n\nUser:\n\n",
+        "use_case": "ALL_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I would like to purchase 8 pairs of shoes in the region of Puglia, province of Bat. The shipping address is 0224 Blackwell Fords Suite 412, Brendaview, ND 14732."
+            },
+            {
+                "AI": "Here is the information you provided for the purchase:\n- Item: 8 pairs of shoes\n- Region: Puglia\n- Province: Bat\n- Shipping Address: 0224 Blackwell Fords Suite 412, Brendaview, ND 14732\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details provided are correct. Please proceed with the purchase of 8 pairs of shoes to be shipped to the address mentioned. Thank you."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 357,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: shoes\nquantity: 8\nregion: puglia\nprovince: bat\naddress: 0224 Blackwell Fords Suite 412\nBrendaview, ND 14732\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nFor example \"I want to create an event\", or \"I want to buy something\".\n\n\n\nUser:\n\n",
+        "use_case": "NO_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy something."
+            },
+            {
+                "AI": "What item would you like to purchase? You can choose from a watch, shoes, phone, or book."
+            },
+            {
+                "User": "I would like to purchase shoes."
+            },
+            {
+                "AI": "How many pairs of shoes would you like to purchase? You can choose a quantity between 1 and 10."
+            },
+            {
+                "User": "I would like to purchase 8 pairs of shoes."
+            },
+            {
+                "AI": "In which region would you like the shoes to be shipped?"
+            },
+            {
+                "User": "I would like the shoes to be shipped to Puglia."
+            },
+            {
+                "AI": "What province in Puglia should the shoes be shipped to?"
+            },
+            {
+                "User": "The shoes should be shipped to the province of Bat."
+            },
+            {
+                "AI": "Could you please provide the address where the shoes should be shipped to?"
+            },
+            {
+                "User": "0224 Blackwell Fords Suite 412, Brendaview, ND 14732"
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Shoes\n- Quantity: 8 pairs\n- Region: Puglia\n- Province: Bat\n- Address: 0224 Blackwell Fords Suite 412, Brendaview, ND 14732\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 358,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: shoes\nquantity: 8\nregion: puglia\nprovince: bat\naddress: 0224 Blackwell Fords Suite 412\nBrendaview, ND 14732\n\n\n\nState what you want to do, providing only the main information, and then follow his instructions to complete the job.\nFor example \"I want to create an event called 'Meeting'\", or \"I want to buy a watch\".\n\n\n\nUser:\n\n",
+        "use_case": "MAIN_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to purchase shoes."
+            },
+            {
+                "AI": "What quantity of shoes would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 8 pairs of shoes."
+            },
+            {
+                "AI": "In which region would you like the shoes to be shipped?"
+            },
+            {
+                "User": "I would like the shoes to be shipped to Puglia."
+            },
+            {
+                "AI": "What province in Puglia should the shoes be shipped to?"
+            },
+            {
+                "User": "The shoes should be shipped to Bat in Puglia."
+            },
+            {
+                "AI": "What is the address in Bat, Puglia, where the shoes should be shipped to?"
+            },
+            {
+                "User": "The address is 0224 Blackwell Fords Suite 412, Brendaview, ND 14732."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Shoes\n- Quantity: 8 pairs\n- Region: Puglia\n- Province: Bat\n- Address: 0224 Blackwell Fords Suite 412, Brendaview, ND 14732\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 359,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: shoes\nquantity: 8\nregion: puglia\nprovince: bat\naddress: 0224 Blackwell Fords Suite 412\nBrendaview, ND 14732\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nAct like a very naive user who doesn't know what to do, mispell words, give the wrong information and then correct it.\n\n\n\nUser:\n\n",
+        "use_case": "CONFUSED_USER",
+        "messages": [
+            {
+                "User": "Hello there! I would like to purchase some shose."
+            },
+            {
+                "AI": "Great choice! How many pairs of shoes would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 8 pairs of shose."
+            },
+            {
+                "AI": "Perfect! Could you please provide the region where you would like the shoes to be shipped?"
+            },
+            {
+                "User": "I would like the shoes to be shipped to pugila."
+            },
+            {
+                "AI": "It seems there was a typo in the region name. The correct spelling is \"puglia\" instead of \"pugila.\" Could you please confirm the correct region name for shipping the shoes?"
+            },
+            {
+                "User": "Oh, I apologize for the mistake. The correct region for shipping the shoes is puglia."
+            },
+            {
+                "AI": "Thank you for confirming the region. Could you now provide the province where the shoes should be shipped within Puglia?"
+            },
+            {
+                "User": "The province where the shoes should be shipped within puglia is bat."
+            },
+            {
+                "AI": "Thank you for providing the province. The form has been updated with the information you provided. Lastly, could you please provide the address where the shoes should be shipped to in Bat, Puglia?"
+            },
+            {
+                "User": "The address where the shoes should be shipped to in Bat, Puglia is 0224 Blackwell Fords Suite 412 Brendaview, ND 14732."
+            },
+            {
+                "AI": "Here is the information you provided for the purchase:\n- Item: Shoes\n- Quantity: 8 pairs\n- Region: Puglia\n- Province: Bat\n- Address: 0224 Blackwell Fords Suite 412 Brendaview, ND 14732\n\nPlease confirm if the details are correct for the purchase."
+            },
+            {
+                "User": "Yes, the details are correct for the purchase. Thank you for your help!"
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 360,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 9\nregion: sicilia\nprovince: catania\naddress: 72004 Jasmine Rue\nBakerfurt, VT 33821\n\n\n\nState your will to the system, and then follow his instructions to complete the job.\nGive all the data necessary to the system in the first message.\n\n\n\nUser:\n\n",
+        "use_case": "ALL_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I would like to purchase a book.\nHere is the necessary data:\n- Quantity: 9\n- Region: Sicilia\n- Province: Catania\n- Address: 72004 Jasmine Rue, Bakerfurt, VT 33821"
+            },
+            {
+                "AI": "It seems there was an error with the book purchase. Could you please confirm if you would like the book to be sent as an ebook or a physical copy?"
+            },
+            {
+                "User": "I would like the book to be sent as a physical copy."
+            },
+            {
+                "AI": "Here is the information for your book purchase:\n- Item: Book\n- Quantity: 9\n- Region: Sicilia\n- Province: Catania\n- Address: 72004 Jasmine Rue, Bakerfurt, VT 33821\n\nPlease confirm if this information is correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the information provided for the book purchase is correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 361,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 9\nregion: sicilia\nprovince: catania\naddress: 72004 Jasmine Rue\nBakerfurt, VT 33821\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nFor example \"I want to create an event\", or \"I want to buy something\".\n\n\n\nUser:\n\n",
+        "use_case": "NO_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy something."
+            },
+            {
+                "AI": "What item would you like to purchase? You can choose from a watch, shoes, phone, or book."
+            },
+            {
+                "User": "I would like to purchase a book."
+            },
+            {
+                "AI": "It seems I missed a required detail. Would you like the book to be sent as an ebook or a physical copy?"
+            },
+            {
+                "User": "I would like to purchase a physical copy of the book."
+            },
+            {
+                "AI": "How many copies of the book would you like to purchase? You can choose a quantity between 1 and 10."
+            },
+            {
+                "User": "I would like to purchase 9 copies of the book."
+            },
+            {
+                "AI": "In which region would you like the book to be shipped?"
+            },
+            {
+                "User": "I would like the book to be shipped to Sicilia."
+            },
+            {
+                "AI": "Could you please provide the province in Sicilia where you would like the book to be shipped?"
+            },
+            {
+                "User": "I would like the book to be shipped to Catania in Sicilia."
+            },
+            {
+                "AI": "Thank you for providing the shipping details. Could you please provide the address in Catania where you would like the book to be shipped?"
+            },
+            {
+                "User": "72004 Jasmine Rue\nBakerfurt, VT 33821"
+            },
+            {
+                "AI": "Here is the information you provided for the purchase:\n- Item: Book\n- Quantity: 9 copies\n- Region: Sicilia\n- Province: Catania\n- Address: 72004 Jasmine Rue, Bakerfurt, VT 33821\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details provided are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 362,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 9\nregion: sicilia\nprovince: catania\naddress: 72004 Jasmine Rue\nBakerfurt, VT 33821\n\n\n\nState what you want to do, providing only the main information, and then follow his instructions to complete the job.\nFor example \"I want to create an event called 'Meeting'\", or \"I want to buy a watch\".\n\n\n\nUser:\n\n",
+        "use_case": "MAIN_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to purchase 9 books in Sicilia, Catania, at 72004 Jasmine Rue, Bakerfurt, VT 33821."
+            },
+            {
+                "AI": "Here is the information you provided for the purchase:\n- Item: 9 books\n- Region: Sicilia\n- Province: Catania\n- Address: 72004 Jasmine Rue, Bakerfurt, VT 33821\n\nPlease confirm if this information is correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the information provided for the purchase of 9 books in Sicilia, Catania, at 72004 Jasmine Rue, Bakerfurt, VT 33821 is correct."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 363,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 9\nregion: sicilia\nprovince: catania\naddress: 72004 Jasmine Rue\nBakerfurt, VT 33821\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nAct like a very naive user who doesn't know what to do, mispell words, give the wrong information and then correct it.\n\n\n\nUser:\n\n",
+        "use_case": "CONFUSED_USER",
+        "messages": [
+            {
+                "User": "Hello there! I would like to purchase a book. How can I go about doing that?"
+            },
+            {
+                "AI": "It seems there was an issue with the book purchase. To proceed with purchasing the book, I need to know if you would like to receive it as an ebook or a physical copy. Could you please let me know your preference?"
+            },
+            {
+                "User": "Oh, I'm sorry for the confusion. I would like to receive a physical copy of the book, please."
+            },
+            {
+                "AI": "Thank you for clarifying that you would like to receive a physical copy of the book. \nNext, I need to know the quantity of books you would like to purchase. How many copies of the book would you like to buy?"
+            },
+            {
+                "User": "I would like to buy 9 copies of the book."
+            },
+            {
+                "AI": "The form has been updated with the quantity of 9 copies of the book. \nNext, I need to know the region where you would like the books to be shipped. Could you please provide the region for shipping?"
+            },
+            {
+                "User": "I would like the books to be shipped to sicilia."
+            },
+            {
+                "AI": "It seems there was an error because I missed asking whether you would like the book to be sent as an ebook or a physical copy. Could you please confirm if you would like the book to be sent as an ebook or a physical copy?"
+            },
+            {
+                "User": "Oh, I apologize for the mistake. I would like the book to be sent as a physical copy."
+            },
+            {
+                "AI": "The form has been successfully updated with the information you provided. \nNext, I need to know the province in Sicilia where you would like the books to be shipped. Could you please provide the province for shipping?"
+            },
+            {
+                "User": "I would like the books to be shipped to catania."
+            },
+            {
+                "AI": "The form has been successfully updated with the shipping details to Catania, Sicilia. \nLastly, I need the address where you would like the books to be delivered. Could you please provide the shipping address?"
+            },
+            {
+                "User": "My shipping address is:\n72004 Jasmine Rue\nBakerfurt, VT 33821"
+            },
+            {
+                "AI": "Here is the information for your book purchase:\n- Item: Book\n- Quantity: 9 copies\n- Region: Sicilia\n- Province: Catania\n- Shipping Address: 72004 Jasmine Rue, Bakerfurt, VT 33821\n\nPlease confirm if the details are correct so that we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 364,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: phone\nquantity: 8\nregion: puglia\nprovince: bari\naddress: 910 Santiago Spring\nGatesview, GU 08070\n\n\n\nState your will to the system, and then follow his instructions to complete the job.\nGive all the data necessary to the system in the first message.\n\n\n\nUser:\n\n",
+        "use_case": "ALL_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "Hello, I would like to purchase 8 phones to be delivered to the following address:\nRegion: Puglia\nProvince: Bari\nAddress: 910 Santiago Spring, Gatesview, GU 08070."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: 8 phones\n- Region: Puglia\n- Province: Bari\n- Address: 910 Santiago Spring, Gatesview, GU 08070.\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the information provided for the purchase of 8 phones to be delivered to Region: Puglia, Province: Bari, Address: 910 Santiago Spring, Gatesview, GU 08070 is correct. Please proceed with the purchase process."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 365,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: phone\nquantity: 8\nregion: puglia\nprovince: bari\naddress: 910 Santiago Spring\nGatesview, GU 08070\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nFor example \"I want to create an event\", or \"I want to buy something\".\n\n\n\nUser:\n\n",
+        "use_case": "NO_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy something."
+            },
+            {
+                "AI": "What item would you like to purchase? You can choose from a watch, shoes, phone, or book."
+            },
+            {
+                "User": "I would like to purchase a phone."
+            },
+            {
+                "AI": "How many phones would you like to purchase? The quantity should be between 1 and 10."
+            },
+            {
+                "User": "I would like to purchase 8 phones."
+            },
+            {
+                "AI": "In which region would you like the phones to be shipped?"
+            },
+            {
+                "User": "I would like the phones to be shipped to Puglia."
+            },
+            {
+                "AI": "What province in Puglia should the phones be shipped to?"
+            },
+            {
+                "User": "I would like the phones to be shipped to Bari in Puglia."
+            },
+            {
+                "AI": "Could you please provide the address where you would like the phones to be shipped to in Bari, Puglia?"
+            },
+            {
+                "User": "The address for shipping is:\n910 Santiago Spring\nGatesview, GU 08070"
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Phone\n- Quantity: 8\n- Region: Puglia\n- Province: Bari\n- Address: 910 Santiago Spring, Gatesview, GU 08070\n\nPlease confirm if the information is correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the information provided is correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 366,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: phone\nquantity: 8\nregion: puglia\nprovince: bari\naddress: 910 Santiago Spring\nGatesview, GU 08070\n\n\n\nState what you want to do, providing only the main information, and then follow his instructions to complete the job.\nFor example \"I want to create an event called 'Meeting'\", or \"I want to buy a watch\".\n\n\n\nUser:\n\n",
+        "use_case": "MAIN_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy a phone."
+            },
+            {
+                "AI": "Great choice! How many phones would you like to buy?"
+            },
+            {
+                "User": "I would like to buy 8 phones."
+            },
+            {
+                "AI": "In which region would you like the phones to be shipped?"
+            },
+            {
+                "User": "I would like the phones to be shipped to Puglia."
+            },
+            {
+                "AI": "What province in Puglia should the phones be shipped to?"
+            },
+            {
+                "User": "The phones should be shipped to Bari in Puglia."
+            },
+            {
+                "AI": "Could you please provide the address where the phones should be shipped to in Bari, Puglia?"
+            },
+            {
+                "User": "The address for shipping the phones to Bari, Puglia is:\n910 Santiago Spring\nGatesview, GU 08070"
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Phone\n- Quantity: 8\n- Region: Puglia\n- Province: Bari\n- Address: 910 Santiago Spring, Gatesview, GU 08070\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details for the purchase are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 367,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: phone\nquantity: 8\nregion: puglia\nprovince: bari\naddress: 910 Santiago Spring\nGatesview, GU 08070\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nAct like a very naive user who doesn't know what to do, mispell words, give the wrong information and then correct it.\n\n\n\nUser:\n\n",
+        "use_case": "CONFUSED_USER",
+        "messages": [
+            {
+                "User": "Hello there! I would like to purchase a phone. Can you help me with that?"
+            },
+            {
+                "AI": "Great choice! How many phones would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 8 phones."
+            },
+            {
+                "AI": "Where would you like the phones to be shipped? Please provide the region."
+            },
+            {
+                "User": "I would like the phones to be shipped to puglia."
+            },
+            {
+                "AI": "Thank you for providing the region. Could you please specify the province in Puglia where you want the phones to be shipped?"
+            },
+            {
+                "User": "I would like the phones to be shipped to bari."
+            },
+            {
+                "AI": "Thank you for providing the shipping details. Now, could you please provide the address where you want the phones to be delivered?"
+            },
+            {
+                "User": "Sure! The address is 910 Santiago Spring Gatesview, GU 08070."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Phone\n- Quantity: 8\n- Region: Puglia\n- Province: Bari\n- Address: 910 Santiago Spring Gatesview, GU 08070\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, that information is correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 368,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 6\nregion: puglia\nprovince: lecce\naddress: Unit 1338 Box 6322\nDPO AP 69562\n\n\n\nState your will to the system, and then follow his instructions to complete the job.\nGive all the data necessary to the system in the first message.\n\n\n\nUser:\n\n",
+        "use_case": "ALL_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I would like to purchase 6 books to be delivered to the region of Puglia, province of Lecce, at the address Unit 1338 Box 6322, DPO AP 69562."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: 6 books\n- Region: Puglia\n- Province: Lecce\n- Address: Unit 1338 Box 6322, DPO AP 69562\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 369,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 6\nregion: puglia\nprovince: lecce\naddress: Unit 1338 Box 6322\nDPO AP 69562\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nFor example \"I want to create an event\", or \"I want to buy something\".\n\n\n\nUser:\n\n",
+        "use_case": "NO_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy something."
+            },
+            {
+                "AI": "What item would you like to purchase? You can choose from \"watch,\" \"shoes,\" \"phone,\" or \"book.\""
+            },
+            {
+                "User": "I would like to purchase a book."
+            },
+            {
+                "AI": "It seems there was an issue with the purchase request for the book. To proceed with the purchase, I need to know if you would like the book to be sent as an ebook or as a physical copy. Could you please specify your preference?"
+            },
+            {
+                "User": "I would like to purchase a physical copy of the book."
+            },
+            {
+                "AI": "Great! The book will be sent as a physical copy. \n\nNext, please provide the quantity of books you would like to purchase."
+            },
+            {
+                "User": "I would like to purchase 6 books."
+            },
+            {
+                "AI": "The quantity of 6 books has been added to your purchase. \n\nNow, could you please provide the region where you would like the books to be shipped?"
+            },
+            {
+                "User": "I would like the books to be shipped to Puglia."
+            },
+            {
+                "AI": "It seems there was an error with the purchase request. To proceed, I need to confirm whether you would like the books to be sent as physical copies or ebooks. Could you please specify your preference?"
+            },
+            {
+                "User": "I would like the books to be sent as physical copies."
+            },
+            {
+                "AI": "The books will be sent as physical copies to Puglia.\n\nNext, could you please provide the province in Puglia where you would like the books to be shipped?"
+            },
+            {
+                "User": "I would like the books to be shipped to Lecce in Puglia."
+            },
+            {
+                "AI": "Thank you for providing the shipping details. \n\nLastly, could you please provide the address in Lecce, Puglia, where you would like the books to be delivered?"
+            },
+            {
+                "User": "The address for delivery is:\nUnit 1338 Box 6322\nDPO AP 69562"
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Book\n- Quantity: 6\n- Region: Puglia\n- Province: Lecce\n- Address: Unit 1338 Box 6322 DPO AP 69562\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 370,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 6\nregion: puglia\nprovince: lecce\naddress: Unit 1338 Box 6322\nDPO AP 69562\n\n\n\nState what you want to do, providing only the main information, and then follow his instructions to complete the job.\nFor example \"I want to create an event called 'Meeting'\", or \"I want to buy a watch\".\n\n\n\nUser:\n\n",
+        "use_case": "MAIN_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to purchase 6 books to be delivered to Unit 1338 Box 6322, DPO AP 69562 in Lecce, Puglia."
+            },
+            {
+                "AI": "It seems there was an issue with the purchase request. To proceed with purchasing the books, could you please confirm if you would like the books to be sent as physical copies or ebooks?"
+            },
+            {
+                "User": "I would like the books to be sent as physical copies."
+            },
+            {
+                "AI": "It seems there was an error because I missed specifying the format for the books. Could you please confirm if you would like the books to be sent as physical copies or ebooks?"
+            },
+            {
+                "User": "Physical copies."
+            },
+            {
+                "AI": "It seems there was an issue with the region specified. Please provide the correct region for the delivery address in Lecce, Puglia."
+            },
+            {
+                "User": "The correct region for the delivery address in Lecce is Puglia."
+            },
+            {
+                "AI": "The form has been updated with the provided information. Could you please provide the province for the delivery address in Lecce, Puglia?"
+            },
+            {
+                "User": "The province for the delivery address in Lecce, Puglia is Lecce."
+            },
+            {
+                "AI": "Here is the information for the purchase:\n- Item: 6 books\n- Format: Physical copies\n- Region: Puglia\n- Province: Lecce\n- Address: Unit 1338 Box 6322, DPO AP 69562\n\nCould you please confirm if this information is correct for the purchase?"
+            },
+            {
+                "User": "Yes, the information provided is correct for the purchase:\n- Item: 6 books\n- Format: Physical copies\n- Region: Puglia\n- Province: Lecce\n- Address: Unit 1338 Box 6322, DPO AP 69562"
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 371,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 6\nregion: puglia\nprovince: lecce\naddress: Unit 1338 Box 6322\nDPO AP 69562\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nAct like a very naive user who doesn't know what to do, mispell words, give the wrong information and then correct it.\n\n\n\nUser:\n\n",
+        "use_case": "CONFUSED_USER",
+        "messages": [
+            {
+                "User": "Hello there! I would like to purchase a book. Can you help me with that?"
+            },
+            {
+                "AI": "It seems I missed providing the necessary information. To proceed with purchasing the book, could you please confirm if you would like to receive the book as an ebook or a physical copy?"
+            },
+            {
+                "User": "I would like to receive the book as a physical copy, please."
+            },
+            {
+                "AI": "Got it! To continue with the purchase, could you please provide the quantity of books you would like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 6 books, please."
+            },
+            {
+                "AI": "Thank you for providing the quantity. Next, could you please provide the region where you would like the books to be shipped?"
+            },
+            {
+                "User": "I would like the books to be shipped to Puglia, please."
+            },
+            {
+                "AI": "Thank you for the information provided so far. To proceed with the purchase, could you please provide the province in Puglia where you would like the books to be shipped?"
+            },
+            {
+                "User": "I would like the books to be shipped to Lecce in Puglia."
+            },
+            {
+                "AI": "The form has been updated with the information you provided. Lastly, could you please provide the address in Lecce, Puglia, where you would like the books to be shipped?"
+            },
+            {
+                "User": "My address in Lecce, Puglia is Unit 1338 Box 6322, DPO AP 69562."
+            },
+            {
+                "AI": "Here is the information you provided for the purchase:\n- Item: Book\n- Quantity: 6\n- Region: Puglia\n- Province: Lecce\n- Address: Unit 1338 Box 6322, DPO AP 69562\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 372,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 3\nregion: puglia\nprovince: brindisi\naddress: 0665 Shannon Turnpike\nSouth Danielfurt, HI 38752\n\n\n\nState your will to the system, and then follow his instructions to complete the job.\nGive all the data necessary to the system in the first message.\n\n\n\nUser:\n\n",
+        "use_case": "ALL_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I would like to purchase 3 books to be delivered to the region of Puglia, province of Brindisi, at the following address: 0665 Shannon Turnpike, South Danielfurt, HI 38752."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: 3 books\n- Region: Puglia\n- Province: Brindisi\n- Address: 0665 Shannon Turnpike, South Danielfurt, HI 38752\n\nPlease confirm if this information is correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the information provided is correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 373,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 3\nregion: puglia\nprovince: brindisi\naddress: 0665 Shannon Turnpike\nSouth Danielfurt, HI 38752\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nFor example \"I want to create an event\", or \"I want to buy something\".\n\n\n\nUser:\n\n",
+        "use_case": "NO_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy something."
+            },
+            {
+                "AI": "What item would you like to purchase? You can choose from a watch, shoes, phone, or book."
+            },
+            {
+                "User": "I would like to purchase a book."
+            },
+            {
+                "AI": "It seems there was an issue with the purchase request for the book. To proceed with the purchase, I need to know if you would like the book to be sent as an ebook or as a physical copy. Could you please specify your preference?"
+            },
+            {
+                "User": "I would like to purchase a physical copy of the book."
+            },
+            {
+                "AI": "Great! The book will be sent as a physical copy. \n\nNext, could you please provide the quantity of books you would like to purchase? You can choose a quantity between 1 and 10."
+            },
+            {
+                "User": "I would like to purchase 3 books."
+            },
+            {
+                "AI": "The quantity of 3 books has been updated. \n\nNow, could you please provide the region where you would like the books to be shipped?"
+            },
+            {
+                "User": "I would like the books to be shipped to Puglia."
+            },
+            {
+                "AI": "It seems there was an error with the purchase request. It's necessary to specify whether the book should be sent as an ebook or a physical copy. Could you please confirm if you would like the books to be sent as physical copies?"
+            },
+            {
+                "User": "Yes, I confirm that I would like the books to be sent as physical copies."
+            },
+            {
+                "AI": "The information has been updated with your preferences.\n\nNext, could you please provide the province in Puglia where you would like the books to be shipped?"
+            },
+            {
+                "User": "I would like the books to be shipped to Brindisi in Puglia."
+            },
+            {
+                "AI": "The shipping province has been updated to Brindisi in Puglia.\n\nLastly, could you please provide the address where you would like the books to be shipped?"
+            },
+            {
+                "User": "0665 Shannon Turnpike, South Danielfurt, HI 38752"
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Book\n- Quantity: 3\n- Region: Puglia\n- Province: Brindisi\n- Address: 0665 Shannon Turnpike, South Danielfurt, HI 38752\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 374,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 3\nregion: puglia\nprovince: brindisi\naddress: 0665 Shannon Turnpike\nSouth Danielfurt, HI 38752\n\n\n\nState what you want to do, providing only the main information, and then follow his instructions to complete the job.\nFor example \"I want to create an event called 'Meeting'\", or \"I want to buy a watch\".\n\n\n\nUser:\n\n",
+        "use_case": "MAIN_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to purchase 3 books in Puglia, Brindisi, at 0665 Shannon Turnpike, South Danielfurt, HI 38752."
+            },
+            {
+                "AI": "It seems there was an issue with the purchase request for the books. To proceed with the purchase, I need to know if you would like the books to be sent as ebooks or physical copies. Could you please specify if you prefer ebooks or physical copies for the books you want to purchase?"
+            },
+            {
+                "User": "I would like to purchase physical copies of the books."
+            },
+            {
+                "AI": "It seems there was an error with the purchase request. It appears that the ebook option must be set for books. Let's correct this. Would you like the books to be sent as ebooks or physical copies?"
+            },
+            {
+                "User": "I would like the books to be sent as ebooks."
+            },
+            {
+                "AI": "The form has been updated with the information provided. To proceed with the purchase, I need your email address to send the ebooks. Could you please provide your email address?"
+            },
+            {
+                "User": "I prefer not to provide my email address. Can the ebooks be sent to a temporary email address instead?"
+            },
+            {
+                "AI": "The form has been successfully updated with the information provided. Is there anything else you would like to add or modify in the purchase details?"
+            },
+            {
+                "User": "No, everything looks good. Thank you for your assistance."
+            },
+            {
+                "AI": "You're welcome! If you need any more help in the future, feel free to ask. Have a great day!"
+            },
+            {
+                "User": "Thank you, you too!"
+            }
+        ],
+        "result": "Conversation aborted"
+    },
+    {
+        "id": 375,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nquantity: 3\nregion: puglia\nprovince: brindisi\naddress: 0665 Shannon Turnpike\nSouth Danielfurt, HI 38752\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nAct like a very naive user who doesn't know what to do, mispell words, give the wrong information and then correct it.\n\n\n\nUser:\n\n",
+        "use_case": "CONFUSED_USER",
+        "messages": [
+            {
+                "User": "Hello there! I would like to purchase a book. Can you help me with that?"
+            },
+            {
+                "AI": "It seems I missed providing the necessary information. To proceed with purchasing the book, could you please confirm if you would like to receive the book as an ebook or a physical copy?"
+            },
+            {
+                "User": "I would like to receive the book as a physical copy, please."
+            },
+            {
+                "AI": "Great choice! To proceed with the purchase, could you please provide the quantity of books you would like to purchase? The quantity should be between 1 and 10."
+            },
+            {
+                "User": "I would like to purchase 3 books, please."
+            },
+            {
+                "AI": "Thank you for providing the quantity. Next, could you please provide the region where you would like the books to be shipped to?"
+            },
+            {
+                "User": "I would like the books to be shipped to the region of puglia."
+            },
+            {
+                "AI": "The form has been updated with the region information. Now, could you please provide the province where you would like the books to be shipped to?"
+            },
+            {
+                "User": "I would like the books to be shipped to the province of brindisi."
+            },
+            {
+                "AI": "The form has been successfully updated with the shipping province information. Lastly, could you please provide the address where you would like the books to be shipped to?"
+            },
+            {
+                "User": "The address where I would like the books to be shipped to is 0665 Shannon Turnpike, South Danielfurt, HI 38752."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Book\n- Quantity: 3\n- Region: Puglia\n- Province: Brindisi\n- Address: 0665 Shannon Turnpike, South Danielfurt, HI 38752\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 376,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nebook: True\nemail: craigschultz@example.com\n\n\n\nState your will to the system, and then follow his instructions to complete the job.\nGive all the data necessary to the system in the first message.\n\n\n\nUser:\n\n",
+        "use_case": "ALL_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I would like to purchase an ebook of a book. My email is craigschultz@example.com."
+            },
+            {
+                "AI": "Here is the information you provided for purchasing an ebook of a book:\n- Item: book\n- Ebook: Yes\n- Email: craigschultz@example.com\n\nPlease confirm if the information is correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the information provided is correct. Please proceed with the purchase of the ebook."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 377,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nebook: True\nemail: craigschultz@example.com\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nFor example \"I want to create an event\", or \"I want to buy something\".\n\n\n\nUser:\n\n",
+        "use_case": "NO_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy something."
+            },
+            {
+                "AI": "What item would you like to purchase? You can choose from \"watch,\" \"shoes,\" \"phone,\" or \"book.\""
+            },
+            {
+                "User": "I would like to purchase a book."
+            },
+            {
+                "AI": "It seems I missed a detail. Would you like the book to be sent as an ebook or as a physical copy?"
+            },
+            {
+                "User": "I would like the book to be sent as an ebook."
+            },
+            {
+                "AI": "What is the email address where you would like the ebook to be sent?"
+            },
+            {
+                "User": "craigschultz@example.com"
+            },
+            {
+                "AI": "Here is the information you provided for the purchase:\n- Item: book\n- Ebook: Yes\n- Email: craigschultz@example.com\n\nPlease confirm if this information is correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the information provided is correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 378,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nebook: True\nemail: craigschultz@example.com\n\n\n\nState what you want to do, providing only the main information, and then follow his instructions to complete the job.\nFor example \"I want to create an event called 'Meeting'\", or \"I want to buy a watch\".\n\n\n\nUser:\n\n",
+        "use_case": "MAIN_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy a book."
+            },
+            {
+                "AI": "I need to know if you would like the book as an ebook or a physical copy. Could you please specify your preference?"
+            },
+            {
+                "User": "I would like the book as an ebook."
+            },
+            {
+                "AI": "Great! The book will be sent to you as an ebook. \nNext, I need your email address to send the ebook. Could you please provide your email address?"
+            },
+            {
+                "User": "craigschultz@example.com"
+            },
+            {
+                "AI": "Here is the information you provided:\n- Item: book\n- Ebook: Yes\n- Email: craigschultz@example.com\n\nPlease confirm if the information is correct so that we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the information is correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 379,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: book\nebook: True\nemail: craigschultz@example.com\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nAct like a very naive user who doesn't know what to do, mispell words, give the wrong information and then correct it.\n\n\n\nUser:\n\n",
+        "use_case": "CONFUSED_USER",
+        "messages": [
+            {
+                "User": "Hello! I would like to purchase a book please."
+            },
+            {
+                "AI": "I need to know if you would like the book as an ebook or a physical copy. Could you please specify your preference?"
+            },
+            {
+                "User": "Oh, sorry for the confusion. I would like the ebook version of the book, please."
+            },
+            {
+                "AI": "Great! I've updated the form with your preference for the ebook version of the book. \nNext, I need your email address to send the ebook to. Could you please provide your email address?"
+            },
+            {
+                "User": "Oh, sure! My email address is craigschultz@example.com."
+            },
+            {
+                "AI": "Here is the information you provided:\n- Item: Book\n- Ebook: Yes\n- Email: craigschultz@example.com\n\nPlease confirm if the information is correct so that I can proceed with the purchase."
+            },
+            {
+                "User": "Yes, that information is correct. Thank you for your help!"
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 380,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: watch\nquantity: 5\nregion: puglia\nprovince: lecce\naddress: 805 Nicole Brook\nMarystad, CO 77528\n\n\n\nState your will to the system, and then follow his instructions to complete the job.\nGive all the data necessary to the system in the first message.\n\n\n\nUser:\n\n",
+        "use_case": "ALL_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I would like to purchase 5 watches in the region of Puglia, province of Lecce. The shipping address is 805 Nicole Brook, Marystad, CO 77528."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Watch\n- Quantity: 5\n- Region: Puglia\n- Province: Lecce\n- Shipping Address: 805 Nicole Brook, Marystad, CO 77528\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details provided for the purchase of 5 watches in Puglia, province of Lecce, with the shipping address at 805 Nicole Brook, Marystad, CO 77528 are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 381,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: watch\nquantity: 5\nregion: puglia\nprovince: lecce\naddress: 805 Nicole Brook\nMarystad, CO 77528\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nFor example \"I want to create an event\", or \"I want to buy something\".\n\n\n\nUser:\n\n",
+        "use_case": "NO_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy something."
+            },
+            {
+                "AI": "What item would you like to purchase? You can choose from a watch, shoes, phone, or book."
+            },
+            {
+                "User": "I would like to purchase a watch."
+            },
+            {
+                "AI": "How many watches would you like to purchase? You can choose a quantity between 1 and 10."
+            },
+            {
+                "User": "I would like to purchase 5 watches."
+            },
+            {
+                "AI": "In which region would you like the watches to be shipped?"
+            },
+            {
+                "User": "I would like the watches to be shipped to Puglia."
+            },
+            {
+                "AI": "What province in Puglia should the watches be shipped to?"
+            },
+            {
+                "User": "I would like the watches to be shipped to Lecce."
+            },
+            {
+                "AI": "Could you please provide the address where you would like the watches to be shipped to in Lecce, Puglia?"
+            },
+            {
+                "User": "805 Nicole Brook\nMarystad, CO 77528"
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Watch\n- Quantity: 5\n- Region: Puglia\n- Province: Lecce\n- Address: 805 Nicole Brook, Marystad, CO 77528\n\nPlease confirm if the information is correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the information is correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 382,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: watch\nquantity: 5\nregion: puglia\nprovince: lecce\naddress: 805 Nicole Brook\nMarystad, CO 77528\n\n\n\nState what you want to do, providing only the main information, and then follow his instructions to complete the job.\nFor example \"I want to create an event called 'Meeting'\", or \"I want to buy a watch\".\n\n\n\nUser:\n\n",
+        "use_case": "MAIN_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy a watch."
+            },
+            {
+                "AI": "How many watches would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 5 watches."
+            },
+            {
+                "AI": "In which region would you like the watches to be shipped?"
+            },
+            {
+                "User": "I would like the watches to be shipped to Puglia."
+            },
+            {
+                "AI": "What province in Puglia should the watches be shipped to?"
+            },
+            {
+                "User": "The watches should be shipped to Lecce in Puglia."
+            },
+            {
+                "AI": "Could you please provide the address where the watches should be shipped to?"
+            },
+            {
+                "User": "805 Nicole Brook, Marystad, CO 77528"
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Watch\n- Quantity: 5\n- Region: Puglia\n- Province: Lecce\n- Address: 805 Nicole Brook, Marystad, CO 77528\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 383,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: watch\nquantity: 5\nregion: puglia\nprovince: lecce\naddress: 805 Nicole Brook\nMarystad, CO 77528\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nAct like a very naive user who doesn't know what to do, mispell words, give the wrong information and then correct it.\n\n\n\nUser:\n\n",
+        "use_case": "CONFUSED_USER",
+        "messages": [
+            {
+                "User": "Hello there! I would like to purchase a watch."
+            },
+            {
+                "AI": "Great choice! How many watches would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 5 watches."
+            },
+            {
+                "AI": "Where would you like the watches to be shipped? Please provide the region."
+            },
+            {
+                "User": "I would like the watches to be shipped to puglia."
+            },
+            {
+                "AI": "Could you please provide the province in Puglia where you would like the watches to be shipped?"
+            },
+            {
+                "User": "The province is lecce."
+            },
+            {
+                "AI": "Thank you for providing the shipping details. Now, could you please provide the full address where you would like the watches to be delivered?"
+            },
+            {
+                "User": "My address is 805 Nicole Brook Marystad, CO 77528."
+            },
+            {
+                "AI": "Here is the information you provided for purchasing 5 watches to be shipped to Lecce, Puglia:\n- Item: Watch\n- Quantity: 5\n- Region: Puglia\n- Province: Lecce\n- Address: 805 Nicole Brook Marystad, CO 77528\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Let's proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 384,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: watch\nquantity: 6\nregion: puglia\nprovince: lecce\naddress: 409 Cunningham Parkway\nNew Michaelmouth, IN 84989\n\n\n\nState your will to the system, and then follow his instructions to complete the job.\nGive all the data necessary to the system in the first message.\n\n\n\nUser:\n\n",
+        "use_case": "ALL_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I would like to purchase 6 watches to be delivered to 409 Cunningham Parkway, New Michaelmouth, IN 84989. The region is Puglia and the province is Lecce."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: watch\n- Quantity: 6\n- Region: Puglia\n- Province: Lecce\n- Address: 409 Cunningham Parkway, New Michaelmouth, IN 84989\n\nPlease confirm if the details are correct for the purchase."
+            },
+            {
+                "User": "Yes, the details for the purchase are correct. Thank you for your assistance."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 385,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: watch\nquantity: 6\nregion: puglia\nprovince: lecce\naddress: 409 Cunningham Parkway\nNew Michaelmouth, IN 84989\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nFor example \"I want to create an event\", or \"I want to buy something\".\n\n\n\nUser:\n\n",
+        "use_case": "NO_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy something."
+            },
+            {
+                "AI": "What item would you like to purchase? You can choose from a watch, shoes, phone, or book."
+            },
+            {
+                "User": "I would like to purchase a watch."
+            },
+            {
+                "AI": "How many watches would you like to purchase? You can choose a quantity between 1 and 10."
+            },
+            {
+                "User": "I would like to purchase 6 watches."
+            },
+            {
+                "AI": "In which region would you like the watches to be shipped?"
+            },
+            {
+                "User": "I would like the watches to be shipped to Puglia."
+            },
+            {
+                "AI": "What province in Puglia should the watches be shipped to?"
+            },
+            {
+                "User": "I would like the watches to be shipped to Lecce."
+            },
+            {
+                "AI": "Could you please provide the address where you would like the watches to be shipped to in Lecce, Puglia?"
+            },
+            {
+                "User": "409 Cunningham Parkway, New Michaelmouth, IN 84989"
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Watch\n- Quantity: 6\n- Region: Puglia\n- Province: Lecce\n- Address: 409 Cunningham Parkway, New Michaelmouth, IN 84989\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 386,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: watch\nquantity: 6\nregion: puglia\nprovince: lecce\naddress: 409 Cunningham Parkway\nNew Michaelmouth, IN 84989\n\n\n\nState what you want to do, providing only the main information, and then follow his instructions to complete the job.\nFor example \"I want to create an event called 'Meeting'\", or \"I want to buy a watch\".\n\n\n\nUser:\n\n",
+        "use_case": "MAIN_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy a watch."
+            },
+            {
+                "AI": "Great choice! How many watches would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 6 watches."
+            },
+            {
+                "AI": "Where would you like the watches to be shipped? Please provide the region."
+            },
+            {
+                "User": "The watches should be shipped to Puglia."
+            },
+            {
+                "AI": "What province in Puglia should the watches be shipped to?"
+            },
+            {
+                "User": "The watches should be shipped to Lecce in Puglia."
+            },
+            {
+                "AI": "Could you please provide the address where the watches should be shipped to in Lecce, Puglia?"
+            },
+            {
+                "User": "The address for shipping the watches is:\n409 Cunningham Parkway\nNew Michaelmouth, IN 84989"
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Watch\n- Quantity: 6\n- Region: Puglia\n- Province: Lecce\n- Address: 409 Cunningham Parkway, New Michaelmouth, IN 84989\n\nPlease confirm if this information is correct for the purchase of 6 watches to be shipped to Lecce, Puglia."
+            },
+            {
+                "User": "Yes, the information provided is correct for the purchase of 6 watches to be shipped to Lecce, Puglia."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 387,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: watch\nquantity: 6\nregion: puglia\nprovince: lecce\naddress: 409 Cunningham Parkway\nNew Michaelmouth, IN 84989\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nAct like a very naive user who doesn't know what to do, mispell words, give the wrong information and then correct it.\n\n\n\nUser:\n\n",
+        "use_case": "CONFUSED_USER",
+        "messages": [
+            {
+                "User": "Hello! I would like to purchase a watch."
+            },
+            {
+                "AI": "Great choice! How many watches would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 6 watches."
+            },
+            {
+                "AI": "Where would you like the watches to be shipped? Please provide the region."
+            },
+            {
+                "User": "I would like the watches to be shipped to puglia."
+            },
+            {
+                "AI": "Could you please provide the province in Puglia where you would like the watches to be shipped?"
+            },
+            {
+                "User": "The province is lecce."
+            },
+            {
+                "AI": "Thank you for providing the shipping details. Now, could you please provide the address where you would like the watches to be shipped?"
+            },
+            {
+                "User": "The address is 409 Cunningham Parkway New Michaelmouth, IN 84989."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Watch\n- Quantity: 6\n- Region: Puglia\n- Province: Lecce\n- Address: 409 Cunningham Parkway New Michaelmouth, IN 84989\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 388,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: watch\nquantity: 6\nregion: toscana\nprovince: arezzo\naddress: PSC 6357, Box 8300\nAPO AE 04564\n\n\n\nState your will to the system, and then follow his instructions to complete the job.\nGive all the data necessary to the system in the first message.\n\n\n\nUser:\n\n",
+        "use_case": "ALL_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I would like to purchase 6 watches to be delivered to Toscana, Arezzo at the following address: PSC 6357, Box 8300, APO AE 04564."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Watch\n- Quantity: 6\n- Region: Toscana\n- Province: Arezzo\n- Address: PSC 6357, Box 8300, APO AE 04564\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details for the purchase are correct. Please proceed with the purchase process."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 389,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: watch\nquantity: 6\nregion: toscana\nprovince: arezzo\naddress: PSC 6357, Box 8300\nAPO AE 04564\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nFor example \"I want to create an event\", or \"I want to buy something\".\n\n\n\nUser:\n\n",
+        "use_case": "NO_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy something."
+            },
+            {
+                "AI": "What item would you like to purchase? You can choose from a watch, shoes, phone, or book."
+            },
+            {
+                "User": "I would like to purchase a watch."
+            },
+            {
+                "AI": "How many watches would you like to purchase? You can choose a quantity between 1 and 10."
+            },
+            {
+                "User": "I would like to purchase 6 watches."
+            },
+            {
+                "AI": "In which region would you like the watches to be shipped?"
+            },
+            {
+                "User": "I would like the watches to be shipped to Toscana."
+            },
+            {
+                "AI": "What province in Toscana should the watches be shipped to?"
+            },
+            {
+                "User": "The watches should be shipped to Arezzo."
+            },
+            {
+                "AI": "What is the address where the watches should be shipped to in Arezzo, Toscana?"
+            },
+            {
+                "User": "The address for shipping the watches to Arezzo, Toscana is:\n\nPSC 6357, Box 8300\nAPO AE 04564"
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Watch\n- Quantity: 6\n- Region: Toscana\n- Province: Arezzo\n- Address: PSC 6357, Box 8300 APO AE 04564\n\nPlease confirm if the details are correct for the purchase."
+            },
+            {
+                "User": "Yes, the details for the purchase are correct."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 390,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: watch\nquantity: 6\nregion: toscana\nprovince: arezzo\naddress: PSC 6357, Box 8300\nAPO AE 04564\n\n\n\nState what you want to do, providing only the main information, and then follow his instructions to complete the job.\nFor example \"I want to create an event called 'Meeting'\", or \"I want to buy a watch\".\n\n\n\nUser:\n\n",
+        "use_case": "MAIN_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy a watch."
+            },
+            {
+                "AI": "How many watches would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 6 watches."
+            },
+            {
+                "AI": "In which region would you like the watches to be shipped?"
+            },
+            {
+                "User": "I would like the watches to be shipped to Toscana."
+            },
+            {
+                "AI": "What province in Toscana should the watches be shipped to?"
+            },
+            {
+                "User": "The watches should be shipped to Arezzo."
+            },
+            {
+                "AI": "Could you please provide the address where the watches should be shipped to?"
+            },
+            {
+                "User": "PSC 6357, Box 8300\nAPO AE 04564"
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Watch\n- Quantity: 6\n- Region: Toscana\n- Province: Arezzo\n- Address: PSC 6357, Box 8300, APO AE 04564\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 391,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: watch\nquantity: 6\nregion: toscana\nprovince: arezzo\naddress: PSC 6357, Box 8300\nAPO AE 04564\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nAct like a very naive user who doesn't know what to do, mispell words, give the wrong information and then correct it.\n\n\n\nUser:\n\n",
+        "use_case": "CONFUSED_USER",
+        "messages": [
+            {
+                "User": "Hello there! I would like to purchase a watch."
+            },
+            {
+                "AI": "Great choice! How many watches would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 6 watches, please."
+            },
+            {
+                "AI": "Where would you like the watches to be shipped? Could you please provide the region for the shipping address?"
+            },
+            {
+                "User": "I want the watches to be shipped to Toscana, please."
+            },
+            {
+                "AI": "Could you please provide the province for the shipping address in Toscana?"
+            },
+            {
+                "User": "The province for the shipping address in Toscana is Arezo."
+            },
+            {
+                "AI": "It seems there was an error with the province name. The correct province name for Arezzo in Toscana is \"Arezzo\" instead of \"Arezo.\" Let's correct that. Could you please confirm the province name as \"Arezzo\"?"
+            },
+            {
+                "User": "Oh, I apologize for the mistake. The correct province name for the shipping address in Toscana is Arezzo."
+            },
+            {
+                "AI": "Thank you for providing the correct province name. Could you now please provide the full address where you would like the watches to be shipped to in Arezzo, Toscana?"
+            },
+            {
+                "User": "My full address for shipping the watches to Arezzo, Toscana is PSC 6357, Box 8300 APO AE 04564."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Watch\n- Quantity: 6\n- Region: Toscana\n- Province: Arezzo\n- Address: PSC 6357, Box 8300 APO AE 04564\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 392,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: shoes\nquantity: 8\nregion: toscana\nprovince: pisa\naddress: 245 Tina Estate Suite 372\nNew Christinaland, AR 28256\n\n\n\nState your will to the system, and then follow his instructions to complete the job.\nGive all the data necessary to the system in the first message.\n\n\n\nUser:\n\n",
+        "use_case": "ALL_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "Hello, I would like to purchase 8 pairs of shoes to be delivered to the following address:\n245 Tina Estate Suite 372\nNew Christinaland, AR 28256\nThe region is Toscana and the province is Pisa."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: 8 pairs of shoes\n- Address: 245 Tina Estate Suite 372, New Christinaland, AR 28256\n- Region: Toscana\n- Province: Pisa\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details provided for the purchase of 8 pairs of shoes to be delivered to 245 Tina Estate Suite 372, New Christinaland, AR 28256 in the region of Toscana, province of Pisa are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 393,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: shoes\nquantity: 8\nregion: toscana\nprovince: pisa\naddress: 245 Tina Estate Suite 372\nNew Christinaland, AR 28256\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nFor example \"I want to create an event\", or \"I want to buy something\".\n\n\n\nUser:\n\n",
+        "use_case": "NO_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy something."
+            },
+            {
+                "AI": "What item would you like to purchase? You can choose from a watch, shoes, phone, or book."
+            },
+            {
+                "User": "I would like to purchase shoes."
+            },
+            {
+                "AI": "How many pairs of shoes would you like to purchase? You can choose a quantity between 1 and 10."
+            },
+            {
+                "User": "I would like to purchase 8 pairs of shoes."
+            },
+            {
+                "AI": "In which region would you like the shoes to be shipped?"
+            },
+            {
+                "User": "I would like the shoes to be shipped to Toscana."
+            },
+            {
+                "AI": "What province in Toscana should the shoes be shipped to?"
+            },
+            {
+                "User": "The shoes should be shipped to Pisa."
+            },
+            {
+                "AI": "What is the address where you would like the shoes to be shipped to in Pisa?"
+            },
+            {
+                "User": "245 Tina Estate Suite 372, New Christinaland, AR 28256"
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Shoes\n- Quantity: 8 pairs\n- Region: Toscana\n- Province: Pisa\n- Address: 245 Tina Estate Suite 372, New Christinaland, AR 28256\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 394,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: shoes\nquantity: 8\nregion: toscana\nprovince: pisa\naddress: 245 Tina Estate Suite 372\nNew Christinaland, AR 28256\n\n\n\nState what you want to do, providing only the main information, and then follow his instructions to complete the job.\nFor example \"I want to create an event called 'Meeting'\", or \"I want to buy a watch\".\n\n\n\nUser:\n\n",
+        "use_case": "MAIN_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy shoes."
+            },
+            {
+                "AI": "How many pairs of shoes would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 8 pairs of shoes."
+            },
+            {
+                "AI": "In which region would you like the shoes to be shipped?"
+            },
+            {
+                "User": "I would like the shoes to be shipped to Toscana."
+            },
+            {
+                "AI": "What province in Toscana should the shoes be shipped to?"
+            },
+            {
+                "User": "The shoes should be shipped to Pisa."
+            },
+            {
+                "AI": "Could you please provide the address where the shoes should be shipped to?"
+            },
+            {
+                "User": "245 Tina Estate Suite 372, New Christinaland, AR 28256"
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Shoes\n- Quantity: 8 pairs\n- Region: Toscana\n- Province: Pisa\n- Address: 245 Tina Estate Suite 372, New Christinaland, AR 28256\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 395,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: shoes\nquantity: 8\nregion: toscana\nprovince: pisa\naddress: 245 Tina Estate Suite 372\nNew Christinaland, AR 28256\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nAct like a very naive user who doesn't know what to do, mispell words, give the wrong information and then correct it.\n\n\n\nUser:\n\n",
+        "use_case": "CONFUSED_USER",
+        "messages": [
+            {
+                "User": "Hello there! I would like to purchase some shose."
+            },
+            {
+                "AI": "Great choice! How many pairs of shoes would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 8 pairs of shose."
+            },
+            {
+                "AI": "Perfect! Could you please provide the region where you would like the shoes to be shipped?"
+            },
+            {
+                "User": "I would like the shose to be shipped to toscna."
+            },
+            {
+                "AI": "It seems there was an error with the region name. The region must be one of the following: puglia, sicilia, or toscana. Could you please confirm the correct region for shipping the shoes?"
+            },
+            {
+                "User": "Oh, I apologize for the mistake. The correct region for shipping the shose is toscana."
+            },
+            {
+                "AI": "Thank you for confirming the region. Now, could you please provide the province where the shoes should be shipped?"
+            },
+            {
+                "User": "The shose should be shipped to piza."
+            },
+            {
+                "AI": "It seems there was an error with the province name. The province must be one of the following: arezzo, firenze, grosseto, livorno, lucca, massa-carrara, pisa, pistoia, prato, or siena. Could you please provide the correct province for shipping the shoes?"
+            },
+            {
+                "User": "Oh, I'm sorry for the mistake. The correct province for shipping the shose is Pisa."
+            },
+            {
+                "AI": "Thank you for providing the correct province. Lastly, could you please provide the address where the shoes should be shipped to?"
+            },
+            {
+                "User": "The address where the shose should be shipped is 245 Tina Estate Suite 372 New Christinaland, AR 28256."
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Shoes\n- Quantity: 8 pairs\n- Region: Toscana\n- Province: Pisa\n- Address: 245 Tina Estate Suite 372 New Christinaland, AR 28256\n\nPlease confirm if the details are correct for shipping the shoes."
+            },
+            {
+                "User": "Yes, the details are correct for shipping the shose."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 396,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: phone\nquantity: 2\nregion: sicilia\nprovince: ragusa\naddress: 2893 Weiss Plains Suite 604\nPort Sara, WI 20599\n\n\n\nState your will to the system, and then follow his instructions to complete the job.\nGive all the data necessary to the system in the first message.\n\n\n\nUser:\n\n",
+        "use_case": "ALL_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I would like to purchase 2 phones in Sicilia, Ragusa. The shipping address is 2893 Weiss Plains Suite 604, Port Sara, WI 20599."
+            },
+            {
+                "AI": "Here is the information you provided for purchasing 2 phones in Sicilia, Ragusa:\n- Item: phone\n- Quantity: 2\n- Region: Sicilia\n- Province: Ragusa\n- Shipping Address: 2893 Weiss Plains Suite 604, Port Sara, WI 20599\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details provided for purchasing 2 phones in Sicilia, Ragusa are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 397,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: phone\nquantity: 2\nregion: sicilia\nprovince: ragusa\naddress: 2893 Weiss Plains Suite 604\nPort Sara, WI 20599\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nFor example \"I want to create an event\", or \"I want to buy something\".\n\n\n\nUser:\n\n",
+        "use_case": "NO_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy something."
+            },
+            {
+                "AI": "What item would you like to purchase? You can choose from a watch, shoes, phone, or book."
+            },
+            {
+                "User": "I would like to purchase a phone."
+            },
+            {
+                "AI": "How many phones would you like to purchase? The quantity should be between 1 and 10."
+            },
+            {
+                "User": "I would like to purchase 2 phones."
+            },
+            {
+                "AI": "In which region would you like the phones to be shipped?"
+            },
+            {
+                "User": "I would like the phones to be shipped to Sicilia."
+            },
+            {
+                "AI": "What province in Sicilia should the phones be shipped to?"
+            },
+            {
+                "User": "I would like the phones to be shipped to Ragusa."
+            },
+            {
+                "AI": "Could you please provide the address where you would like the phones to be shipped to in Ragusa, Sicilia?"
+            },
+            {
+                "User": "2893 Weiss Plains Suite 604\nPort Sara, WI 20599"
+            },
+            {
+                "AI": "Here is the information for your purchase:\n- Item: Phone\n- Quantity: 2\n- Region: Sicilia\n- Province: Ragusa\n- Address: 2893 Weiss Plains Suite 604 Port Sara, WI 20599\n\nPlease confirm if the information is correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the information is correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 398,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: phone\nquantity: 2\nregion: sicilia\nprovince: ragusa\naddress: 2893 Weiss Plains Suite 604\nPort Sara, WI 20599\n\n\n\nState what you want to do, providing only the main information, and then follow his instructions to complete the job.\nFor example \"I want to create an event called 'Meeting'\", or \"I want to buy a watch\".\n\n\n\nUser:\n\n",
+        "use_case": "MAIN_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to buy two phones in Sicilia, Ragusa, and have them shipped to 2893 Weiss Plains Suite 604, Port Sara, WI 20599."
+            },
+            {
+                "AI": "Here is the information you provided for the purchase:\n- Item: phone\n- Quantity: 2\n- Region: Sicilia\n- Province: Ragusa\n- Address: 2893 Weiss Plains Suite 604, Port Sara, WI 20599\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, the details provided for the purchase are correct. Please proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 399,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to purchase an item.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to purchase an item is the following:\nitem: phone\nquantity: 2\nregion: sicilia\nprovince: ragusa\naddress: 2893 Weiss Plains Suite 604\nPort Sara, WI 20599\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nAct like a very naive user who doesn't know what to do, mispell words, give the wrong information and then correct it.\n\n\n\nUser:\n\n",
+        "use_case": "CONFUSED_USER",
+        "messages": [
+            {
+                "User": "Hello there! I would like to purchase a phone. Can you help me with that?"
+            },
+            {
+                "AI": "Great choice! How many phones would you like to purchase?"
+            },
+            {
+                "User": "I would like to purchase 2 phones, please."
+            },
+            {
+                "AI": "Perfect! Could you please provide the region where you would like the phones to be shipped?"
+            },
+            {
+                "User": "I would like the phones to be shipped to sicilia."
+            },
+            {
+                "AI": "Thank you for providing the region. To proceed with the purchase, could you please provide the province in Sicilia where you would like the phones to be shipped?"
+            },
+            {
+                "User": "The province where I would like the phones to be shipped is ragusa."
+            },
+            {
+                "AI": "Thank you for providing the province. The next step is to enter the address where you would like the phones to be shipped. Could you please provide the shipping address?"
+            },
+            {
+                "User": "My shipping address is 2893 Weiss Plains Suite 604 Port Sara, WI 20599."
+            },
+            {
+                "AI": "Here is the information you provided for the purchase:\n- Item: Phone\n- Quantity: 2\n- Region: Sicilia\n- Province: Ragusa\n- Shipping Address: 2893 Weiss Plains Suite 604 Port Sara, WI 20599\n\nPlease confirm if the details are correct so we can proceed with the purchase."
+            },
+            {
+                "User": "Yes, that information is correct. Let's proceed with the purchase."
+            }
+        ],
+        "result": "Successful execution"
+    }
+]

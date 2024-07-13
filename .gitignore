@@ -1,0 +1,6 @@
+.history
+.vscode
+venv
+dist
+tests/coverage_html
+__pycache__/
