@@ -1,0 +1,46 @@
+# FILEPATH: /home/gianfranco/Desktop/uni/masters-thesis/converso/pyproject.toml
+
+[tool.poetry]
+name = "converso"
+version = "0.0.1"
+description = "Artificial Intelligence assistant"
+authors = ["Gianfranco Demarco <gianfrademarco@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.0.0"
+pytest-cov = "^4.1.0"
+
+[tool.poetry.group.lint]
+optional = true
+
+[tool.poetry.group.lint.dependencies]
+pylint = "^3.0.3"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.5.3"
+mkdocs-gen-files = "^0.5.0"
+mkdocs-literate-nav = "^0.6.1"
+mkdocs-section-index = "^0.3.8"
+mkdocs-material = "^9.5.7"
+mkdocstrings = {version = "^0.24.0", extras = ["python"]}
+pymdown-extensions = "^10.7"
+markdown-include = "^0.8.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = ">=3.10, <4.0"
+
+openai = "1.32.0"
+langgraph = "^0.1.8"
+langchain-openai = "^0.1.16"
+langchain = "^0.2.7"

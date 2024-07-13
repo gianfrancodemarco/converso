@@ -1,0 +1,169 @@
+[
+    {
+        "id": 0,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to create an event on Google Calendar.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to create an event on Google Calendar is the following:\nsummary: Run let fire idea game send.\ndescription: Exist however life. Fine rather program act nature appear guy. Treat scientist already attention actually want difference.\nBase oil force four each benefit put. Both record dream picture pass hear.\nstart: 2024-03-05 17:10:00\nend: 2024-03-12 20:49:00\n\n\n\nState your will to the system, and then follow his instructions to complete the job.\nGive all the data necessary to the system in the first message.\n\n\n\nUser:\n\n",
+        "use_case": "ALL_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I would like to create an event on Google Calendar with the following details:\nSummary: Run let fire idea game send.\nDescription: Exist however life. Fine rather program act nature appear guy. Treat scientist already attention actually want difference. Base oil force four each benefit put. Both record dream picture pass hear.\nStart: 2024-03-05 17:10:00\nEnd: 2024-03-12 20:49:00\n\nPlease proceed with creating this event on Google Calendar."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 1,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to create an event on Google Calendar.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to create an event on Google Calendar is the following:\nsummary: Run let fire idea game send.\ndescription: Exist however life. Fine rather program act nature appear guy. Treat scientist already attention actually want difference.\nBase oil force four each benefit put. Both record dream picture pass hear.\nstart: 2024-03-05 17:10:00\nend: 2024-03-12 20:49:00\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nFor example \"I want to create an event\", or \"I want to buy something\".\n\n\n\nUser:\n\n",
+        "use_case": "NO_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to create an event."
+            },
+            {
+                "AI": "Sure, I can help you with that. Please provide me with the details of the event you would like to create, such as the title, description, start date, and end date."
+            },
+            {
+                "User": "Here are the details for the event:\n\n- Title: Run let fire idea game send\n- Description: Exist however life. Fine rather program act nature appear guy. Treat scientist already attention actually want difference. Base oil force four each benefit put. Both record dream picture pass hear.\n- Start Date: March 5, 2024 at 5:10 PM\n- End Date: March 12, 2024 at 8:49 PM\n\nPlease create the event with these details on Google Calendar."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 2,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to create an event on Google Calendar.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to create an event on Google Calendar is the following:\nsummary: Run let fire idea game send.\ndescription: Exist however life. Fine rather program act nature appear guy. Treat scientist already attention actually want difference.\nBase oil force four each benefit put. Both record dream picture pass hear.\nstart: 2024-03-05 17:10:00\nend: 2024-03-12 20:49:00\n\n\n\nState what you want to do, providing only the main information, and then follow his instructions to complete the job.\nFor example \"I want to create an event called 'Meeting'\", or \"I want to buy a watch\".\n\n\n\nUser:\n\n",
+        "use_case": "MAIN_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to create an event called 'Run let fire idea game send'."
+            },
+            {
+                "AI": "I have successfully created the event \"Run let fire idea game send\" on your calendar. It's scheduled for tomorrow from 9:00 AM to 10:30 AM."
+            },
+            {
+                "User": "Thank you for creating the event. Just to clarify, the event \"Run let fire idea game send\" should actually start on March 5, 2024, at 5:10 PM and end on March 12, 2024, at 8:49 PM."
+            },
+            {
+                "AI": "The event \"Run let fire idea game send\" has been updated to start on March 5, 2024, at 5:10 PM and end on March 12, 2024, at 8:49 PM."
+            },
+            {
+                "User": "Thank you for updating the event details. If there is anything else you need assistance with, feel free to let me know."
+            },
+            {
+                "AI": "If you have any more requests or need assistance with anything else, feel free to ask. I'm here to help!"
+            },
+            {
+                "User": "Thank you for your offer. I will reach out if I need any further assistance."
+            },
+            {
+                "AI": "You're welcome! Feel free to reach out whenever you need help. Have a great day!"
+            },
+            {
+                "User": "Thank you! You have a great day too!"
+            },
+            {
+                "AI": "Thank you! Have a wonderful day ahead!"
+            },
+            {
+                "User": "You're welcome! Have a wonderful day ahead as well!"
+            },
+            {
+                "AI": "Thank you! Take care!"
+            },
+            {
+                "User": "You're welcome! Take care too!"
+            },
+            {
+                "AI": "Thank you! Goodbye!"
+            },
+            {
+                "User": "Goodbye!"
+            }
+        ],
+        "result": "Conversation aborted"
+    },
+    {
+        "id": 3,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to create an event on Google Calendar.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to create an event on Google Calendar is the following:\nsummary: Run let fire idea game send.\ndescription: Exist however life. Fine rather program act nature appear guy. Treat scientist already attention actually want difference.\nBase oil force four each benefit put. Both record dream picture pass hear.\nstart: 2024-03-05 17:10:00\nend: 2024-03-12 20:49:00\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nAct like a very naive user who doesn't know what to do, mispell words, give the wrong information and then correct it.\n\n\n\nUser:\n\n",
+        "use_case": "CONFUSED_USER",
+        "messages": [
+            {
+                "User": "Hi there! I need to create an event on Google Calendar. Can you help me with that?"
+            },
+            {
+                "AI": "Of course! I can assist you with creating an event on Google Calendar. Please provide me with the details of the event such as the title, description, start date, and end date."
+            },
+            {
+                "User": "Yes, sure! The title is \"Run let fire idea game send\", the description is \"Exist however life. Fine rather program act nature appear guy. Treat scientist already attention actually want difference. Base oil force four each benefit put. Both record dream picture pass hear.\", the start date is March 5, 2024 at 17:10, and the end date is March 12, 2024 at 20:49."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 4,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to create an event on Google Calendar.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to create an event on Google Calendar is the following:\nsummary: Skill sometimes oil leader.\ndescription: A source car among. Kind bit door article protect cut off. Expert people defense change probably.\nstart: 2024-03-17 23:23:00\nend: 2024-03-24 01:26:00\n\n\n\nState your will to the system, and then follow his instructions to complete the job.\nGive all the data necessary to the system in the first message.\n\n\n\nUser:\n\n",
+        "use_case": "ALL_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I would like to create an event on Google Calendar with the following details:\nSummary: Skill sometimes oil leader.\nDescription: A source car among. Kind bit door article protect cut off. Expert people defense change probably.\nStart: 2024-03-17 23:23:00\nEnd: 2024-03-24 01:26:00\n\nPlease guide me on how to proceed."
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 5,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to create an event on Google Calendar.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to create an event on Google Calendar is the following:\nsummary: Skill sometimes oil leader.\ndescription: A source car among. Kind bit door article protect cut off. Expert people defense change probably.\nstart: 2024-03-17 23:23:00\nend: 2024-03-24 01:26:00\n\n\n\nState your will to the system, without providing any data, and then follow his instructions to complete the job.\nFor example \"I want to create an event\", or \"I want to buy something\".\n\n\n\nUser:\n\n",
+        "use_case": "NO_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to create an event."
+            },
+            {
+                "AI": "Sure, I can help you with that. Please provide me with the details of the event you would like to create, such as the title, description, start date, and end date."
+            },
+            {
+                "User": "Summary: Skill sometimes oil leader.\nDescription: A source car among. Kind bit door article protect cut off. Expert people defense change probably.\nStart date and time: March 17, 2024, at 11:23 PM\nEnd date and time: March 24, 2024, at 1:26 AM"
+            }
+        ],
+        "result": "Successful execution"
+    },
+    {
+        "id": 6,
+        "prompt": "\n\nYou are impersonating a human user using an AI system.\nYour task is to communicate with an external system to create an event on Google Calendar.\nDo not ever reveal that you are an AI.\nFollow the system instructions to complete your task.\n\nThe data necessary to create an event on Google Calendar is the following:\nsummary: Skill sometimes oil leader.\ndescription: A source car among. Kind bit door article protect cut off. Expert people defense change probably.\nstart: 2024-03-17 23:23:00\nend: 2024-03-24 01:26:00\n\n\n\nState what you want to do, providing only the main information, and then follow his instructions to complete the job.\nFor example \"I want to create an event called 'Meeting'\", or \"I want to buy a watch\".\n\n\n\nUser:\n\n",
+        "use_case": "MAIN_INFORMATION_FIRST_MESSAGE",
+        "messages": [
+            {
+                "User": "I want to create an event titled \"Skill sometimes oil leader\" on Google Calendar."
+            },
+            {
+                "AI": "The event titled \"Skill sometimes oil leader\" has been created on your Google Calendar for today."
+            },
+            {
+                "User": "Thank you for creating the event."
+            },
+            {
+                "AI": "You're welcome! If you need any more assistance or have any other requests, feel free to let me know."
+            },
+            {
+                "User": "Thank you, I will keep that in mind."
+            },
+            {
+                "AI": "Great! Have a wonderful day!"
+            },
+            {
+                "User": "You too!"
+            },
+            {
+                "AI": "Thank you! If you need any help in the future, feel free to reach out. Have a fantastic day!"
+            },
+            {
+                "User": "Thank you, I appreciate that. Have a fantastic day as well!"
+            },
+            {
+                "AI": "Thank you! Take care and have a fantastic day ahead!"
+            },
+            {
+                "User": "You too, take care and have a fantastic day ahead!"
+            }
+        ],
+        "result": null
+    }
+]
