@@ -2,7 +2,7 @@
 
 [tool.poetry]
 name = "converso"
-version = "0.0.1"
+version = "0.1.0"
 description = "Artificial Intelligence assistant"
 authors = ["Gianfranco Demarco <gianfrademarco@gmail.com>"]
 readme = "README.md"
