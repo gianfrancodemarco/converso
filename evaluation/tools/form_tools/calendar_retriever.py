@@ -11,7 +11,8 @@ fake = faker.Faker()
 
 
 class GoogleCalendarRetrieverEvaluation(GoogleCalendarRetriever):
-    # We need to override the skip_confirm attribute from the parent class for evaluation purposes
+    # We need to override the skip_confirm attribute from the parent class for
+    # evaluation purposes
     skip_confirm = False
 
     def _run_when_complete(

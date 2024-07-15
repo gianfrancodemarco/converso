@@ -4,7 +4,7 @@ Module used to evaluate the conversational engine.
 The evaluation is done by using an LLM to simulate the user, and the conversational engine to be tested.
 
 The module reads the test cases from the prompts.json file, and for each test case, it executes the conversational engine.
-Each test case contains a prompt, a tool, and a payload. 
+Each test case contains a prompt, a tool, and a payload.
 The prompt is the system message for the LLM that simulates the user.
 The tool is the tool that the conversational engine should call and the payload is the expected input for the tool.
 A test is successful if the conversational engine calls the correct tool with the correct input.
@@ -86,7 +86,8 @@ for test_case in test_cases:
             user_response = user_model.execute(system_response)
             evaluation_logger.log_user_message(user_response)
 
-            if user_response in ["Goodbye!", "Thank you!", "Thank you, you too!", "Thank you! Goodbye!"]:
+            if user_response in ["Goodbye!", "Thank you!",
+                                 "Thank you, you too!", "Thank you! Goodbye!"]:
                 raise ConversationAborted()
     except SuccessfulExecution:
         evaluation_logger.log_result("Successful execution")
