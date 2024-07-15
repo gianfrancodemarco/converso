@@ -14,6 +14,11 @@ jobs:
           - name: Checkout repository
             uses: actions/checkout@v2
           
+          - name: Install dependencies
+            run: |
+              python3 -m pip install --upgrade poetry
+              poetry install
+
           - name: Check if tag matches pyproject.toml version
             run: |
               tag=$(echo $GITHUB_REF | sed 's/refs\/tags\///')
