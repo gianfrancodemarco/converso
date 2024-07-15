@@ -24,7 +24,7 @@ jobs:
               tag=$(echo $GITHUB_REF | sed 's/refs\/tags\///')
               version=$(poetry version -s)
               if [ "$tag" != "v$version" ]; then
-                echo "Tag $tag does not match pyproject.toml version $version"
+                echo "Tag $tag does not match pyproject.toml version v$version"
                 exit 1
               fi
   
