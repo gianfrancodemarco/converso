@@ -48,7 +48,7 @@ def normalize_json(json_data):
             json_data[key] = datetime.fromisoformat(
                 value.replace('T', ' ').replace("Z", '')).strftime('%Y-%m-%d %H:%M:%S')
 
-        if type(value) == str:
+        if isinstance(value, str):
             json_data[key] = json_data[key].replace("\n", " ").replace(".", " ").replace(
                 ",", " ").replace("  ", " ").lower().strip()
 
@@ -115,7 +115,8 @@ class ExecutorForEvaluation:
             "active_form_tool": self.state["active_form_tool"]
         }
 
-        for output in self.graph.app.stream(inputs, config={"recursion_limit": 25}):
+        for output in self.graph.app.stream(
+                inputs, config={"recursion_limit": 25}):
             for key, value in output.items():
                 self.check_successful_execution(key, value)
         output = self.graph.parse_output(output)
@@ -147,7 +148,7 @@ class FormAgentExecutorForEvaluation(ExecutorForEvaluation):
 
     Args:
         target_tool_call (Dict[str, Any], optional): The target tool call that we want to reach.
-        The executor will raise a SuccessfulExecution exception if the target tool call is reached, or 
+        The executor will raise a SuccessfulExecution exception if the target tool call is reached, or
         a MaxIterationsReached exception if the maximum number of iterations is reached.
     """
 
@@ -196,7 +197,7 @@ class BasicAgentExecutorForEvaluation(ExecutorForEvaluation):
 
     Args:
         target_tool_call (Dict[str, Any], optional): The target tool call that we want to reach.
-        The executor will raise a SuccessfulExecution exception if the target tool call is reached, or 
+        The executor will raise a SuccessfulExecution exception if the target tool call is reached, or
         a MaxIterationsReached exception if the maximum number of iterations is reached.
     """
 

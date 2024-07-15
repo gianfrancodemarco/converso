@@ -33,7 +33,7 @@ BASE_PROMPT = dedent("""
     Your task is to communicate with an external system to {task}.
     Do not ever reveal that you are an AI.
     Follow the system instructions to complete your task.
-                     
+
     The data necessary to {task} is the following:
     {data}
 """)
@@ -85,6 +85,7 @@ USE_CASES = [
     }
 ]
 
+
 def create_prompts():
 
     test_cases = []
@@ -95,8 +96,9 @@ def create_prompts():
         for i in range(NUMBER_OF_TESTS_PER_USE_CASE):
 
             payload = tool.get_random_payload()
-            payload_str = "\n".join([f"{key}: {value}" for key, value in payload.items() if value])
- 
+            payload_str = "\n".join(
+                [f"{key}: {value}" for key, value in payload.items() if value])
+
             for use_case in USE_CASES:
 
                 prompt = dedent(f"""
