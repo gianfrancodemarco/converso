@@ -43,7 +43,7 @@ jobs:
       run: poetry run python -m mkdocs build -f docs/mkdocs.yml
 
     - name: Upload artifact
-      uses: actions/upload-pages-artifact@v1
+      uses: actions/upload-pages-artifact@v4
       with:
         path: ./docs/site
 
