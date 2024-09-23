@@ -8,6 +8,7 @@ from langchain.callbacks.manager import CallbackManagerForToolRun
 from langchain_core.agents import AgentAction, AgentFinish
 from langchain_core.messages import BaseMessage, FunctionMessage
 from langchain_core.tools import BaseTool, StructuredTool, ToolException
+from langgraph.graph.message import add_messages
 from pydantic import BaseModel, Field, ValidationError, create_model
 
 
@@ -269,31 +270,30 @@ class AgentState(TypedDict):
     # The input string
     input: str
     # The list of previous messages in the conversation
-    chat_history: Annotated[Optional[list[BaseMessage]], operator.setitem]
+    chat_history: Annotated[list, add_messages]
     # The outcome of a given call to the agent
     # Needs `None` as a valid type, since this is what this will start as
-    agent_outcome: Annotated[Optional[Union[AgentAction,
-                                            AgentFinish, None]], operator.setitem]
+    agent_outcome: Optional[Union[AgentAction, AgentFinish, None]]
     # The outcome of a given call to a tool
     # Needs `None` as a valid type, since this is what this will start as
-    tool_outcome: Annotated[Optional[Union[FormToolOutcome,
-                                           str, None]], operator.setitem]
+    tool_outcome: Optional[Union[FormToolOutcome,
+                                 str, None]]
     # List of actions and corresponding observations
     # Here we annotate this with `operator.add` to indicate that operations to
     # this state should be ADDED to the existing values (not overwrite it)
-    intermediate_steps: Annotated[Optional[list[tuple[AgentAction,
-                                                      FunctionMessage]]], operator.add]
-    error: Annotated[Optional[str], operator.setitem]
+    intermediate_steps: Optional[list[tuple[AgentAction,
+                                            FunctionMessage]]]
+    error: Optional[str]
 
-    active_form_tool: Annotated[Optional[FormTool], operator.setitem]
+    active_form_tool: Optional[FormTool]
 
     # Used to force the agent to call a specific tool
-    tool_choice: Annotated[Optional[str], operator.setitem]
+    tool_choice: Optional[str]
 
 
 class FormReset(BaseTool):
-    name = "FormReset"
-    description = """Call this tool when the user doesn't want to complete the form anymore. DON'T call it when he wants to change some data."""
+    name: str = "FormReset"
+    description: str = """Call this tool when the user doesn't want to complete the form anymore. DON'T call it when he wants to change some data."""
     args_schema: Type[BaseModel] = FormToolInactivePayload
 
     def _run(self, *args: Any, **kwargs: Any) -> Any:

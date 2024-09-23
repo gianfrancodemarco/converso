@@ -10,8 +10,8 @@ fake = faker.Faker()
 
 
 class GoogleCalendarCreatorEvaluation(StructuredTool):
-    name = "GoogleCalendarCreator"
-    description = """Useful to create events/memos/reminders on Google Calendar."""
+    name: str = "GoogleCalendarCreator"
+    description: str = """Useful to create events/memos/reminders on Google Calendar."""
     args_schema: Type[BaseModel] = CreateCalendarEventPayload
     chat_id: Optional[str] = None
 
