@@ -7,8 +7,8 @@ from converso.conversational_engine.form_agent.form_tool import (
 
 
 class MockBaseTool(BaseTool):
-    name = "MockBaseTool"
-    description = "MockBaseTool description"
+    name: str = "MockBaseTool"
+    description: str = "MockBaseTool description"
 
     def _run(
         self,
@@ -27,8 +27,8 @@ class _DummyPayloadWithFields(BaseModel):
 
 
 class MockFormTool(FormTool):
-    name = "MockFormTool"
-    description = "MockFormTool description"
+    name: str = "MockFormTool"
+    description: str = "MockFormTool description"
     args_schema: Type[BaseModel] = _DummyPayload
 
     def _run_when_complete(self) -> Any:
@@ -36,8 +36,8 @@ class MockFormTool(FormTool):
 
 
 class MockFormToolWithFields(FormTool):
-    name = "MockFormToolWithFields"
-    description = "MockFormToolWithFields description"
+    name: str = "MockFormToolWithFields"
+    description: str = "MockFormToolWithFields description"
     args_schema: Type[BaseModel] = _DummyPayloadWithFields
 
     def _run_when_complete(self) -> Any:

@@ -8,8 +8,8 @@ from converso.conversational_engine.tools.online_purchase import \
 
 
 class OnlinePurchaseEvaluation(StructuredTool):
-    name = "OnlinePurchase"
-    description = """Purchase an item from an online store"""
+    name: str = "OnlinePurchase"
+    description: str = """Purchase an item from an online store"""
     args_schema: Type[BaseModel] = OnlinePurchasePayload
 
     def _run(

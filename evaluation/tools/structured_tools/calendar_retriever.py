@@ -10,8 +10,8 @@ fake = faker.Faker()
 
 
 class GoogleCalendarRetrieverEvaluation(StructuredTool):
-    name = "GoogleCalendarRetriever"
-    description = """Useful to retrieve events from Google Calendar"""
+    name: str = "GoogleCalendarRetriever"
+    description: str = """Useful to retrieve events from Google Calendar"""
     args_schema: Type[BaseModel] = GetCalendarEventsPayload
     return_direct = True
     chat_id: Optional[str] = None

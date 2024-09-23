@@ -27,8 +27,8 @@ class MockFormAgentExecutorErrorModel(FormAgentExecutor):
 
 
 class MockToolError(MockBaseTool):
-    name = "MockToolError"
-    description = "Mock tool that raises an error"
+    name: str = "MockToolError"
+    description: str = "Mock tool that raises an error"
 
     def _run(self, *args: Any, **kwargs: Any) -> Any:
         raise Exception("Mocked error")

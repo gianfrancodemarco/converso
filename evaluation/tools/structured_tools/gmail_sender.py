@@ -7,8 +7,8 @@ from converso.clients import SendEmailPayload
 
 
 class GmailSenderEvaluation(StructuredTool):
-    name = "GmailSender"
-    description = """Useful to send emails from Gmail"""
+    name: str = "GmailSender"
+    description: str = """Useful to send emails from Gmail"""
     args_schema: Type[BaseModel] = SendEmailPayload
     chat_id: Optional[str] = None
 

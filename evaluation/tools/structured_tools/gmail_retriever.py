@@ -7,8 +7,8 @@ from converso.clients import GetEmailsPayload
 
 
 class GmailRetrieverEvaluation(StructuredTool):
-    name = "GmailRetriever"
-    description = """Useful to retrieve emails from Gmail"""
+    name: str = "GmailRetriever"
+    description: str = """Useful to retrieve emails from Gmail"""
     args_schema: Type[BaseModel] = GetEmailsPayload
 
     return_direct = True
