@@ -40,27 +40,27 @@ class FormAgentExecutor(StateGraph):
     def __build_graph(self):
 
         self.add_node("agent", self.call_agent)
-        # self.add_node("tool", self.call_tool)
+        self.add_node("tool", self.call_tool)
 
-        # self.add_conditional_edges(
-        #     "agent",
-        #     self.should_continue_after_agent,
-        #     {
-        #         "tool": "tool",
-        #         "error": "agent",
-        #         "end": END
-        #     }
-        # )
+        self.add_conditional_edges(
+            "agent",
+            self.should_continue_after_agent,
+            {
+                "tool": "tool",
+                "error": "agent",
+                "end": END
+            }
+        )
 
-        # self.add_conditional_edges(
-        #     "tool",
-        #     self.should_continue_after_tool,
-        #     {
-        #         "error": "agent",
-        #         "continue": "agent",
-        #         "end": END
-        #     }
-        # )
+        self.add_conditional_edges(
+            "tool",
+            self.should_continue_after_tool,
+            {
+                "error": "agent",
+                "continue": "agent",
+                "end": END
+            }
+        )
 
         self.set_entry_point("agent")
         self.app = self.compile()
