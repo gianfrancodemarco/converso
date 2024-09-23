@@ -1,5 +1,4 @@
 import json
-import operator
 from abc import ABC, abstractmethod
 from enum import Enum
 from typing import Annotated, Any, Dict, Optional, Type, TypedDict, Union
