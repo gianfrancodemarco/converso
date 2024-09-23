@@ -87,7 +87,8 @@ class FormAgentExecutor(StateGraph):
         if state.get("error"):
             return "error"
 
-        if isinstance(state.get("tool_outcome"), FormToolOutcome) and state.get("tool_outcome").return_direct:
+        if isinstance(state.get("tool_outcome"), FormToolOutcome) and state.get(
+                "tool_outcome").return_direct:
             return "end"
 
         return "continue"
